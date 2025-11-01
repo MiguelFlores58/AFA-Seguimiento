@@ -1,0 +1,6 @@
+{
+  "Name": "AFA-Seguimiento",
+  "ProjectType": "Process",
+  "Description": "Automatizacion no atendida para seguimiento a las demandas",
+  "MainFile": "Flowchart.xaml"
+}
