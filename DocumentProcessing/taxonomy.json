@@ -138,9 +138,272 @@
           "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
         }
       ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Legal.Amparo.Admision",
+      "Group": "Legal",
+      "Category": "Amparo",
+      "Name": "Admision",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Legal.Amparo.Admision.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Legal.Amparo.Admision.Expediente",
+          "FieldName": "Expediente",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "Legal.Amparo.Admision.Quejoso",
+          "FieldName": "Quejoso",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "Legal.Amparo.Admision.FechaAudiencia",
+          "FieldName": "FechaAudiencia",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "Legal.Amparo.Admision.AutoridadResponsable",
+          "FieldName": "AutoridadResponsable",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": []
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Legal.Amparo.Desechamiento",
+      "Group": "Legal",
+      "Category": "Amparo",
+      "Name": "Desechamiento",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Legal.Amparo.Desechamiento.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Legal.Amparo.Desechamiento.Expediente",
+          "FieldName": "Expediente",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "Legal.Amparo.Desechamiento.MotivoDesechamiento",
+          "FieldName": "MotivoDesechamiento",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": []
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "Legal.Amparo.Separacion",
+      "Group": "Legal",
+      "Category": "Amparo",
+      "Name": "Separacion",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Legal.Amparo.Separacion.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Legal.Amparo.Separacion.Expediente",
+          "FieldName": "Expediente",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "Legal.Amparo.Separacion.NuevoJuicio",
+          "FieldName": "NuevoJuicio",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "Legal.Amparo.Separacion.ListaQuejosos",
+          "FieldName": "ListaQuejosos",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#20389d"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": [
+        {
+          "Key": "OCRConfidenceThreshold",
+          "Value": "0.9"
+        },
+        {
+          "Key": "DateDisplayFormat",
+          "Value": "yyyy-MM-dd"
+        },
+        {
+          "Key": "NumberDisplayFormat",
+          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
+        }
+      ]
     }
   ],
-  "Groups": [],
+  "Groups": [
+    {
+      "Name": "Legal",
+      "Categories": [
+        "Amparo"
+      ]
+    }
+  ],
   "SupportedLanguages": [
     {
       "Name": "Undetermined Language",
