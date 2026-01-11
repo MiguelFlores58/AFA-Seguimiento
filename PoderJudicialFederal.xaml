@@ -178,7 +178,7 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PoderJudicialFederal" sap:VirtualizedContainerService.HintSize="1349,7804" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PoderJudicialFederal" sap:VirtualizedContainerService.HintSize="1349,8973" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtClientesSinaloa" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtClientesCoahuila" />
@@ -193,7 +193,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Principal Poder Judicial Federal" sap:VirtualizedContainerService.HintSize="1343,7781" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Principal Poder Judicial Federal" sap:VirtualizedContainerService.HintSize="1343,8950" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="strCarpetaDestino" />
         <Variable x:TypeArguments="x:String" Name="strTipoDocumento" />
@@ -513,13 +513,13 @@
           </ui:ForEach.Body>
         </ui:ForEach>
       </Sequence>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome Portal de Servicios en Línea del Poder" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1309,6407" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome Portal de Servicios en Línea del Poder" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1309,7576" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1275,6162" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1275,7331" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -588,14 +588,14 @@
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NClick>
               </Sequence>
-              <Sequence DisplayName="Personas fisicas" sap:VirtualizedContainerService.HintSize="1241,6035" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence DisplayName="Personas fisicas" sap:VirtualizedContainerService.HintSize="1241,7204" sap2010:WorkflowViewState.IdRef="Sequence_5">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Obtener acuerdos y analizar" sap:VirtualizedContainerService.HintSize="1207,5940" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                <Sequence DisplayName="Obtener acuerdos y analizar" sap:VirtualizedContainerService.HintSize="1207,7109" sap2010:WorkflowViewState.IdRef="Sequence_29">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:Boolean" Name="sonNombresIguales" />
                   </Sequence.Variables>
@@ -688,13 +688,13 @@
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NClick>
                   </Sequence>
-                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtConsolidado]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1173,5567" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtConsolidado]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1173,6736" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                     <ui:ForEachRow.Body>
                       <ActivityAction x:TypeArguments="sd:DataRow">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1171,5388" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1171,6557" sap2010:WorkflowViewState.IdRef="Sequence_10">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1433,14 +1433,28 @@
                               </uix:VerifyExecutionOptions>
                             </uix:NClick.VerifyOptions>
                           </uix:NClick>
-                          <If Condition="[Not sonNombresIguales]" sap:VirtualizedContainerService.HintSize="1137,284" sap2010:WorkflowViewState.IdRef="If_5">
+                          <If Condition="[Not sonNombresIguales]" sap:VirtualizedContainerService.HintSize="1137,527" sap2010:WorkflowViewState.IdRef="If_5">
                             <If.Then>
-                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,116" sap2010:WorkflowViewState.IdRef="Sequence_95">
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,359" sap2010:WorkflowViewState.IdRef="Sequence_95">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ActualizaExcel - Invoke Workflow File (ActualizaExcel.xaml)" sap:VirtualizedContainerService.HintSize="416,243" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="ActualizaExcel.xaml">
+                                  <ui:InvokeWorkflowFile.Arguments>
+                                    <InArgument x:TypeArguments="x:Boolean" x:Key="InseProcesa">False</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="inExpediente">
+                                      <Literal x:TypeArguments="x:String" Value="" />
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="inEntidad">[strEntidad]</InArgument>
+                                    <InArgument x:TypeArguments="x:Int32" x:Key="inIndiceExcel">[intFilaExcel]</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="inTipoDocumento">
+                                      <Literal x:TypeArguments="x:String" Value="" />
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[inArchivoDispatcher]</InArgument>
+                                  </ui:InvokeWorkflowFile.Arguments>
+                                </ui:InvokeWorkflowFile>
                                 <ui:Continue sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="Continue_2" />
                               </Sequence>
                             </If.Then>
@@ -1456,7 +1470,7 @@
                             </If.Else>
                           </If>
                           <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="1137,127" sap2010:WorkflowViewState.IdRef="Delay_3" />
-                          <Sequence DisplayName="Document Understanding" sap:VirtualizedContainerService.HintSize="1137,2454" sap2010:WorkflowViewState.IdRef="Sequence_107">
+                          <Sequence DisplayName="Document Understanding" sap:VirtualizedContainerService.HintSize="1137,3380" sap2010:WorkflowViewState.IdRef="Sequence_107">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:Boolean" Name="seProcesa" />
                               <Variable x:TypeArguments="sd:DataTable" Name="dtDatosPDF" />
@@ -1487,19 +1501,56 @@
                                 <InArgument x:TypeArguments="s:String[]">[System.IO.Directory.GetFiles(strRutaDocumentos, "*.pdf")]</InArgument>
                               </Assign.Value>
                             </Assign>
-                            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="1103,2005" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[arrArchivosPDF]">
+                            <If Condition="[arrArchivosPDF is Nothing OrElse arrArchivosPDF.Count = 0]" DisplayName="Si no hay archivos" sap:VirtualizedContainerService.HintSize="1103,527" sap2010:WorkflowViewState.IdRef="If_7">
+                              <If.Then>
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,359" sap2010:WorkflowViewState.IdRef="Sequence_111">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ActualizaExcel - Invoke Workflow File (ActualizaExcel.xaml)" sap:VirtualizedContainerService.HintSize="416,243" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="ActualizaExcel.xaml">
+                                    <ui:InvokeWorkflowFile.Arguments>
+                                      <InArgument x:TypeArguments="x:Boolean" x:Key="InseProcesa">[seProcesa]</InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="inExpediente">
+                                        <Literal x:TypeArguments="x:String" Value="" />
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="inEntidad">[strEntidad]</InArgument>
+                                      <InArgument x:TypeArguments="x:Int32" x:Key="inIndiceExcel">[intFilaExcel]</InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="inTipoDocumento">
+                                        <Literal x:TypeArguments="x:String" Value="" />
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[inArchivoDispatcher]</InArgument>
+                                    </ui:InvokeWorkflowFile.Arguments>
+                                  </ui:InvokeWorkflowFile>
+                                  <ui:Continue sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="Continue_3" />
+                                </Sequence>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_110">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="1103,2404" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[arrArchivosPDF]">
                               <ui:ForEach.Body>
                                 <ActivityAction x:TypeArguments="x:String">
                                   <ActivityAction.Argument>
                                     <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
                                   </ActivityAction.Argument>
-                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1101,1879" sap2010:WorkflowViewState.IdRef="Sequence_64">
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1101,2278" sap2010:WorkflowViewState.IdRef="Sequence_64">
                                     <Sequence.Variables>
                                       <Variable x:TypeArguments="x:String" Name="strNuevoNombre" />
                                     </Sequence.Variables>
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <Assign sap:VirtualizedContainerService.HintSize="1067,179" sap2010:WorkflowViewState.IdRef="Assign_9">
@@ -1529,12 +1580,12 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                     </p2:DigitizeDocument>
-                                    <ui:IfElseIfV2 sap2010:Annotation.AnnotationText="" Condition="[strTextoAcuerdo.ToLower().Contains(&quot;recepcion demanda&quot;) Or strTextoAcuerdo.ToLower().Contains(&quot;admision&quot;)]" DisplayName="Else If - Para extraer la información de los diferentes tipos de documentos" sap:VirtualizedContainerService.HintSize="1067,966" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
+                                    <ui:IfElseIfV2 sap2010:Annotation.AnnotationText="" Condition="[strTextoAcuerdo.ToLower().Contains(&quot;recepcion demanda&quot;) Or strTextoAcuerdo.ToLower().Contains(&quot;admision&quot;)]" DisplayName="Else If - Para extraer la información de los diferentes tipos de documentos" sap:VirtualizedContainerService.HintSize="1067,1206" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
                                       <ui:IfElseIfV2.Else>
-                                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1065,420" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1065,25" sap2010:WorkflowViewState.IdRef="Sequence_45">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
@@ -1548,15 +1599,9 @@
                                           </Assign>
                                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ActualizaExcel - Invoke Workflow File (ActualizaExcel.xaml)" sap:VirtualizedContainerService.HintSize="1031,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="ActualizaExcel.xaml">
                                             <ui:InvokeWorkflowFile.Arguments>
+                                              <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="inDictArgumentos" />
                                               <InArgument x:TypeArguments="x:Boolean" x:Key="InseProcesa">[seProcesa]</InArgument>
-                                              <InArgument x:TypeArguments="x:String" x:Key="inExpediente">
-                                                <Literal x:TypeArguments="x:String" Value="" />
-                                              </InArgument>
-                                              <InArgument x:TypeArguments="x:String" x:Key="inEntidad">[strEntidad]</InArgument>
                                               <InArgument x:TypeArguments="x:Int32" x:Key="inIndiceExcel">[intFilaExcel]</InArgument>
-                                              <InArgument x:TypeArguments="x:String" x:Key="inTipoDocumento">
-                                                <Literal x:TypeArguments="x:String" Value="" />
-                                              </InArgument>
                                               <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[inArchivoDispatcher]</InArgument>
                                             </ui:InvokeWorkflowFile.Arguments>
                                           </ui:InvokeWorkflowFile>
@@ -1617,14 +1662,18 @@
                                                         </ui:AssignOperation>
                                                       </scg:List>
                                                     </ui:MultipleAssign.AssignOperations>
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
                                                   </ui:MultipleAssign>
                                                   <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ActualizaExcel - Invoke Workflow File (ActualizaExcel.xaml)" sap:VirtualizedContainerService.HintSize="479,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="ActualizaExcel.xaml">
                                                     <ui:InvokeWorkflowFile.Arguments>
+                                                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="inDictArgumentos">[new System.Collections.Generic.Dictionary(Of System.String, System.String) From { { "Motivos", strMotivos },{ "Entidad", strEntidad } }]</InArgument>
                                                       <InArgument x:TypeArguments="x:Boolean" x:Key="InseProcesa">[seProcesa]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inExpediente">[strExpediente]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inEntidad">[strEntidad]</InArgument>
                                                       <InArgument x:TypeArguments="x:Int32" x:Key="inIndiceExcel">[intFilaExcel]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inTipoDocumento">[strTipoDocumento]</InArgument>
                                                       <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[inArchivoDispatcher]</InArgument>
                                                     </ui:InvokeWorkflowFile.Arguments>
                                                   </ui:InvokeWorkflowFile>
@@ -1634,10 +1683,10 @@
                                           </ui:IfElseIfBlock>
                                           <ui:IfElseIfBlock BlockType="ElseIf" Condition="[strTextoAcuerdo.ToLower.Contains(&quot;separación de juicios&quot;) Or strTextoAcuerdo.ToLower.Contains(&quot;separación de autos&quot;)]" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_5">
                                             <ui:IfElseIfBlock.Then>
-                                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1065,609" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1065,25" sap2010:WorkflowViewState.IdRef="Sequence_48">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
@@ -1680,7 +1729,7 @@
                                                             <OutArgument x:TypeArguments="x:String">[strTipoDocumento]</OutArgument>
                                                           </ui:AssignOperation.To>
                                                           <ui:AssignOperation.Value>
-                                                            <InArgument x:TypeArguments="x:String">Separación</InArgument>
+                                                            <InArgument x:TypeArguments="x:String">Separacion</InArgument>
                                                           </ui:AssignOperation.Value>
                                                         </ui:AssignOperation>
                                                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_33">
@@ -1696,11 +1745,9 @@
                                                   </ui:MultipleAssign>
                                                   <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ActualizaExcel - Invoke Workflow File (ActualizaExcel.xaml)" sap:VirtualizedContainerService.HintSize="479,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="ActualizaExcel.xaml">
                                                     <ui:InvokeWorkflowFile.Arguments>
+                                                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="inDictArgumentos">[new System.Collections.Generic.Dictionary(Of System.String, System.String) From { { "ListaQuejosos", strListaQuejosos },{ "NuevoJuicio", strNuevoJuicio },{ "Entidad", strEntidad } }]</InArgument>
                                                       <InArgument x:TypeArguments="x:Boolean" x:Key="InseProcesa">[seProcesa]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inExpediente">[strExpediente]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inEntidad">[strEntidad]</InArgument>
                                                       <InArgument x:TypeArguments="x:Int32" x:Key="inIndiceExcel">[intFilaExcel]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inTipoDocumento">[strTipoDocumento]</InArgument>
                                                       <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[inArchivoDispatcher]</InArgument>
                                                     </ui:InvokeWorkflowFile.Arguments>
                                                   </ui:InvokeWorkflowFile>
@@ -1767,7 +1814,7 @@
                                                             <OutArgument x:TypeArguments="x:String">[strTipoDocumento]</OutArgument>
                                                           </ui:AssignOperation.To>
                                                           <ui:AssignOperation.Value>
-                                                            <InArgument x:TypeArguments="x:String">Admisión Demanda</InArgument>
+                                                            <InArgument x:TypeArguments="x:String">Admision Demanda</InArgument>
                                                           </ui:AssignOperation.Value>
                                                         </ui:AssignOperation>
                                                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_34">
@@ -1783,11 +1830,9 @@
                                                   </ui:MultipleAssign>
                                                   <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ActualizaExcel - Invoke Workflow File (ActualizaExcel.xaml)" sap:VirtualizedContainerService.HintSize="479,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="ActualizaExcel.xaml">
                                                     <ui:InvokeWorkflowFile.Arguments>
+                                                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="inDictArgumentos">[new System.Collections.Generic.Dictionary(Of System.String, System.String) From { { "FechaAudiencia", strFechaAudiencia },{ "Autoridad", strAutoridad },{ "Entidad", strEntidad } }]</InArgument>
                                                       <InArgument x:TypeArguments="x:Boolean" x:Key="InseProcesa">[seProcesa]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inExpediente">[strExpediente]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inEntidad">[strEntidad]</InArgument>
                                                       <InArgument x:TypeArguments="x:Int32" x:Key="inIndiceExcel">[intFilaExcel]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inTipoDocumento">[strTipoDocumento]</InArgument>
                                                       <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[inArchivoDispatcher]</InArgument>
                                                     </ui:InvokeWorkflowFile.Arguments>
                                                   </ui:InvokeWorkflowFile>
@@ -1804,7 +1849,7 @@
                                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <Sequence DisplayName="Prevencion" sap:VirtualizedContainerService.HintSize="1031,1109" sap2010:WorkflowViewState.IdRef="Sequence_74">
+                                                <Sequence DisplayName="Prevencion" sap:VirtualizedContainerService.HintSize="1031,852" sap2010:WorkflowViewState.IdRef="Sequence_74">
                                                   <Sequence.Variables>
                                                     <Variable x:TypeArguments="x:String" Name="strCuerpoPrevencion" />
                                                     <Variable x:TypeArguments="x:String" Name="strTextoApercibimiento" />
@@ -1896,8 +1941,15 @@
                                                       </scg:List>
                                                     </ui:MultipleAssign.AssignOperations>
                                                   </ui:MultipleAssign>
-                                                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="479,127" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="DocumentoPrevencion - Invoke Workflow File (DocumentoPrevencion.xaml)" sap:VirtualizedContainerService.HintSize="479,186" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="DocumentoPrevencion.xaml">
+                                                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="479,61" sap2010:WorkflowViewState.IdRef="Delay_2">
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
+                                                  </Delay>
+                                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="DocumentoPrevencion - Invoke Workflow File (DocumentoPrevencion.xaml)" sap:VirtualizedContainerService.HintSize="479,61" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="DocumentoPrevencion.xaml">
                                                     <ui:InvokeWorkflowFile.Arguments>
                                                       <InArgument x:TypeArguments="x:String" x:Key="InFechaPrevision">[strFechaAcuerdo]</InArgument>
                                                       <InArgument x:TypeArguments="x:String" x:Key="InDirigidoA">[strNombreSecretario]</InArgument>
@@ -1905,15 +1957,26 @@
                                                       <InArgument x:TypeArguments="x:String" x:Key="inDiasPlazo">[strDiasPlazo]</InArgument>
                                                       <InArgument x:TypeArguments="x:String" x:Key="inNumAmparo">[strNumAmparo]</InArgument>
                                                     </ui:InvokeWorkflowFile.Arguments>
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
                                                   </ui:InvokeWorkflowFile>
-                                                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="479,127" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                                                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="479,61" sap2010:WorkflowViewState.IdRef="Delay_4">
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
+                                                  </Delay>
                                                   <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ActualizaExcel - Invoke Workflow File (ActualizaExcel.xaml)" sap:VirtualizedContainerService.HintSize="479,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="ActualizaExcel.xaml">
                                                     <ui:InvokeWorkflowFile.Arguments>
+                                                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="inDictArgumentos">[new System.Collections.Generic.Dictionary(Of System.String, System.String) From { { "DiasPlazo", strDiasPlazo },{ "CuerpoPrevencion", strCuerpoPrevencion },{ "Apercibimiento", strTextoApercibimiento },{ "FechaAcuerdo", strFechaAcuerdo },{ "Entidad", strEntidad } }]</InArgument>
                                                       <InArgument x:TypeArguments="x:Boolean" x:Key="InseProcesa">[seProcesa]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inExpediente">[strNumAmparo]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inEntidad">[strEntidad]</InArgument>
                                                       <InArgument x:TypeArguments="x:Int32" x:Key="inIndiceExcel">[intFilaExcel]</InArgument>
-                                                      <InArgument x:TypeArguments="x:String" x:Key="inTipoDocumento">[strTipoDocumento]</InArgument>
                                                       <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[inArchivoDispatcher]</InArgument>
                                                     </ui:InvokeWorkflowFile.Arguments>
                                                   </ui:InvokeWorkflowFile>
@@ -1923,10 +1986,10 @@
                                           </ui:IfElseIfBlock>
                                           <ui:IfElseIfBlock BlockType="ElseIf" Condition="[strTextoAcuerdo.ToUpper.Contains(&quot;SE DECLINA COMPETENCIA LEGAL&quot;)]" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_9">
                                             <ui:IfElseIfBlock.Then>
-                                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1065,25" sap2010:WorkflowViewState.IdRef="Sequence_78">
+                                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1065,635" sap2010:WorkflowViewState.IdRef="Sequence_78">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
@@ -1960,7 +2023,7 @@
                                                             <OutArgument x:TypeArguments="x:String">[strTipoDocumento]</OutArgument>
                                                           </ui:AssignOperation.To>
                                                           <ui:AssignOperation.Value>
-                                                            <InArgument x:TypeArguments="x:String">SE DECLINA COMPETENCIA LEGAL</InArgument>
+                                                            <InArgument x:TypeArguments="x:String">Declina</InArgument>
                                                           </ui:AssignOperation.Value>
                                                         </ui:AssignOperation>
                                                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_36">
@@ -1975,7 +2038,7 @@
                                                     </ui:MultipleAssign.AssignOperations>
                                                   </ui:MultipleAssign>
                                                 </Sequence>
-                                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ActualizaExcel - Invoke Workflow File (ActualizaExcel.xaml)" sap:VirtualizedContainerService.HintSize="1031,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="ActualizaExcel.xaml">
+                                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ActualizaExcel - Invoke Workflow File (ActualizaExcel.xaml)" sap:VirtualizedContainerService.HintSize="1031,234" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="ActualizaExcel.xaml">
                                                   <ui:InvokeWorkflowFile.Arguments>
                                                     <InArgument x:TypeArguments="x:Boolean" x:Key="InseProcesa">[seProcesa]</InArgument>
                                                     <InArgument x:TypeArguments="x:String" x:Key="inExpediente">[strExpediente]</InArgument>
@@ -2016,9 +2079,15 @@
                                         </Sequence>
                                       </ui:IfElseIfV2.Then>
                                     </ui:IfElseIfV2>
-                                    <If Condition="[seProcesa]" sap:VirtualizedContainerService.HintSize="1067,332" sap2010:WorkflowViewState.IdRef="If_6">
+                                    <If Condition="[seProcesa]" DisplayName="Si se proceso el archivo, encontró coincidencia" sap:VirtualizedContainerService.HintSize="1067,491" sap2010:WorkflowViewState.IdRef="If_6">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
                                       <If.Then>
-                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,112" sap2010:WorkflowViewState.IdRef="Sequence_108">
+                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,116" sap2010:WorkflowViewState.IdRef="Sequence_108">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2053,12 +2122,20 @@
                                         </Sequence>
                                       </If.Then>
                                       <If.Else>
-                                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="484,90" sap2010:WorkflowViewState.IdRef="Sequence_109">
+                                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="484,241" sap2010:WorkflowViewState.IdRef="Sequence_109">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
+                                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ActualizaExcel - Invoke Workflow File (ActualizaExcel.xaml)" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="ActualizaExcel.xaml">
+                                            <ui:InvokeWorkflowFile.Arguments>
+                                              <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)" x:Key="inDictArgumentos" />
+                                              <InArgument x:TypeArguments="x:Boolean" x:Key="InseProcesa">[seProcesa]</InArgument>
+                                              <InArgument x:TypeArguments="x:Int32" x:Key="inIndiceExcel">[intFilaExcel]</InArgument>
+                                              <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[inArchivoDispatcher]</InArgument>
+                                            </ui:InvokeWorkflowFile.Arguments>
+                                          </ui:InvokeWorkflowFile>
                                         </Sequence>
                                       </If.Else>
                                     </If>
