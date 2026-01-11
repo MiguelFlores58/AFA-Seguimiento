@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Portal de Servicios en Línea del Poder",
+  "Type": "App",
+  "Id": "QSt1WRSbl0qY9Kk0CKVtYw",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/QSt1WRSbl0qY9Kk0CKVtYw",
+  "Created": "2026-01-10T20:29:26.4783426Z",
+  "Updated": "2026-01-10T20:29:26.4783426Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
