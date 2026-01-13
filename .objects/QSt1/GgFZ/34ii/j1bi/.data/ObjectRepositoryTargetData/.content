@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CS-ZxwIlekKafXtuEv9X4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="837bfccb-316a-4fe6-8452-bc158efa44f6" CvElementArea="447, 456, 1072, 35" CvType="InputBox" DesignTimeRectangle="804, 466, 121, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='expedienteE' tag='A' /&gt;" Guid="77ce1e0c-0b95-4895-a8fd-b8b0f2f2d6c7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="837bfccb-316a-4fe6-8452-bc158efa44f6" CvElementArea="413, 456, 40, 35" CvType="Button" DesignTimeRectangle="414, 457, 39, 34" FullSelectorArgument="&lt;webctrl parentid='expedienteE' tag='SPAN' /&gt;" Guid="0ffdc709-57b1-415f-abb9-5c1fc2e3fe46" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b4dd0572e13c2cfdc51069de1b7afd1f.png" xmlns="">0iej8-2qc0ketUw1tkhrQ-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

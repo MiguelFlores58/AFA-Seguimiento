@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1j0Oo6uATE2pWZFCov7Yrw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="2777003c-03e3-4f53-a9c9-bd04f8dd6fe6" CvElementArea="19, 682, 55, 27" CvTextArea="36, 690, 20, 11" CvTextArgument="No." CvType="Button" DesignTimeRectangle="19, 683, 55, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='tbl11' tableRow='7' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='TH' /&gt;" Guid="04c85092-fa83-4a40-ba4b-5ca1257619c5" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='42c9d111-fb27-57ec-5eae-f1dc9fe25dae' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2777003c-03e3-4f53-a9c9-bd04f8dd6fe6" CvTextArea="143, 689, 118, 14" CvTextArgument="Número de Expediente" CvType="Text" DesignTimeRectangle="76, 683, 253, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='tbl11' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Número de Expediente' type='' tag='TH' class='order_AsuntoAlias header' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Número de Expediente' /&gt;" Guid="da4f8ec1-c27d-4109-96d1-3564fbe1851d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="19f348d2fc326d414bdd72e2954fb805.png" xmlns="">0zL09wQ34-EmYi3gop3Fqdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

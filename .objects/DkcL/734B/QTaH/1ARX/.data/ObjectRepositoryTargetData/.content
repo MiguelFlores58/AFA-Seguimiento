@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3Sa-UlDIYU2u4u9Mo1L5eQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Default.aspx" CVScreenId="235e6cf8-85b4-4056-a376-21d160361e6f" CvTextArea="616, 235, 59, 13" CvTextArgument="Reportes &gt;&gt;" CvType="Text" DesignTimeRectangle="614, 230, 63, 24" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='Reportes' tableRow='6' tag='LI' /&gt;" Guid="964765ff-a0c1-4bc2-bc63-1e77ec5e5124" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='2bdc06e2-c1cc-9e3e-0efc-8a3ca4a596a8' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6ba0f7ae17eb5e34284ce3011078127d.png" xmlns="">0J9IFCB--H0G0jr9poyzIHQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

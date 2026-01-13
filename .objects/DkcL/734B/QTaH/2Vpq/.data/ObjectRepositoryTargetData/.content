@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JO2QPTvgTUu70mGSXaIFNg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="69908cd9-dfe4-4d12-9b10-f9e69fee1fa7" CvElementArea="1084, 535, 169, 32" CvType="InputBox" DesignTimeRectangle="1086, 537, 164, 29" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl class='tblFechaDesdeHasta' parentid='divPersonaFiltro' tag='TABLE' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl class='' tag='INPUT' type='text' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="4915d48d-20f7-41cc-aae8-91a4e214046c" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='62d398fd-6991-7b49-954d-ea060f92dd1e' title='S I S E' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="69908cd9-dfe4-4d12-9b10-f9e69fee1fa7" CvTextArea="1003, 549, 84, 13" CvTextArgument="Fecha Hasta" CvType="Text" DesignTimeRectangle="1004, 548, 82, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='tblFechaDesdeHasta' parentid='divPersonaFiltro' tag='TABLE' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl parentid='divPersonaFiltro' type='' tag='SPAN' class='Etiqueta' aaname='Fecha Hasta' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Fecha Hasta' /&gt;" Guid="69e901e3-33f4-4c31-9b77-4590c1ad8056" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="193b3118e6bad5bee3610a2ba563c4c7.png" xmlns="">0xPVFP1GDZ0au6MWtwGtu6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

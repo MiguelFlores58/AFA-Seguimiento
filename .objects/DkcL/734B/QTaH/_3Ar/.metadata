@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cuarto Tribunal Colegia…",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "_3Arbp_wyE6XuwVP6vZKUA",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/_3Arbp_wyE6XuwVP6vZKUA",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/QTaHpcHExEWFX-UggRHS2w",
+  "Created": "2026-01-13T18:27:18.6275868Z",
+  "Updated": "2026-01-13T18:27:18.6275868Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

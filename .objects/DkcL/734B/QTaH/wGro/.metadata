@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Segundo Tribunal Colegi…",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "wGrouSwIb02EcQkOGQTvAA",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/wGrouSwIb02EcQkOGQTvAA",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/QTaHpcHExEWFX-UggRHS2w",
+  "Created": "2026-01-13T18:44:30.4092749Z",
+  "Updated": "2026-01-13T18:44:30.4092749Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

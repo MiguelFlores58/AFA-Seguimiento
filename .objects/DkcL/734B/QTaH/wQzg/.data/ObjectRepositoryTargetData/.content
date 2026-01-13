@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WkiOZmXyd0iY1tAEHALLKw" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/wQzgDTCgtEq_xTPXyEon8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="aa295658-b5e8-436b-b4ab-1a5dd44ca948" CvTextArea="79, 716, 51, 11" CvTextArgument="563/2025" CvType="Text" DesignTimeRectangle="80, 716, 50, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[string.Format(&quot;&lt;webctrl id='tbl11' tag='TABLE' /&gt;&lt;webctrl tag='A' aaname='{0}' /&gt;&quot;, strExpediente)]" Guid="5c076dc4-0228-45fa-92be-3d6aa725f6c4" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='42c9d111-fb27-57ec-5eae-f1dc9fe25dae' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b6bb26560b1ac51f73d11db95a1f61d7.png" xmlns="">0vsAXEp1iv0GaTV5IgV5YpA</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="*" Name="strExpediente" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

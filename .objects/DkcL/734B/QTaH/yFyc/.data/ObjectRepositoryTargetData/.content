@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2Mt_97lM4kOMNmSVGCZF_g" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/yFycmitoBEeGeBsxzU-xIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Default.aspx" CVScreenId="1910bde8-c89f-406a-b5b8-3a302a9a6bd5" CvTextArea="616, 287, 59, 13" CvTextArgument="Reportes &gt;&gt;" CvType="Text" DesignTimeRectangle="614, 282, 63, 24" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='Reportes' tableRow='6' tag='LI' /&gt;" Guid="4c9a81f4-8fe5-4b40-a9c0-74ba3ae7737b" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='25fd548d-5bf3-617c-3b6a-69c095371c1d' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1297db451b2ff73900c949893229f8ae.png" xmlns="">0uWrqYv-zSUiFSwgI-o0fUQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

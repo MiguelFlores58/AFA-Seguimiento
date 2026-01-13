@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Reportes »Listados de C…(1)",
+  "Type": "Element",
+  "Id": "yFycmitoBEeGeBsxzU-xIg",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/yFycmitoBEeGeBsxzU-xIg",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/QTaHpcHExEWFX-UggRHS2w",
+  "Created": "2026-01-13T17:42:00.3796259Z",
+  "Updated": "2026-01-13T17:42:00.3796259Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

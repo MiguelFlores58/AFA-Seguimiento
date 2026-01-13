@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Tercer Tribunal Colegia…",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "8BcFy_Y7d0uDGL_wFDqBRg",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/8BcFy_Y7d0uDGL_wFDqBRg",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/QTaHpcHExEWFX-UggRHS2w",
+  "Created": "2026-01-13T18:46:18.0586616Z",
+  "Updated": "2026-01-13T18:46:18.0586616Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

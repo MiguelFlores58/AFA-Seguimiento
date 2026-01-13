@@ -1,0 +1,13 @@
+﻿{
+  "Name": "registros encontrados",
+  "Type": "Element",
+  "Id": "03Jwmo7lkkOMuUo2bmpPzg",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/03Jwmo7lkkOMuUo2bmpPzg",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/QTaHpcHExEWFX-UggRHS2w",
+  "Created": "2026-01-13T19:44:51.778367Z",
+  "Updated": "2026-01-13T19:44:51.778367Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

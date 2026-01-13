@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome SISE 156",
+  "Type": "App",
+  "Id": "DkcLqPuByEy3NEZyfJzyVA",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/DkcLqPuByEy3NEZyfJzyVA",
+  "Created": "2026-01-13T15:21:19.752906Z",
+  "Updated": "2026-01-13T15:21:19.752906Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

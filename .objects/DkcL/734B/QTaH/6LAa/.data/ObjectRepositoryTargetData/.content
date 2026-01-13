@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ThwndmhhPUK2BtaIwgVCtw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="d8d4fc3c-f9f3-4561-8ad7-e8da8ceba8f4" CvElementArea="741, 633, 76, 28" CvTextArea="755, 643, 49, 12" CvTextArgument="Buscar" CvType="Button" DesignTimeRectangle="743, 635, 73, 25" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='btnBuscarParte' tableRow='7' tag='INPUT' /&gt;" Guid="1fb596ef-1a77-4cb9-9712-c7fc17c2b08c" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='62d398fd-6991-7b49-954d-ea060f92dd1e' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8956fc1436be00131d47ce141b85bd9a.png" xmlns="">0efTU5Htf5UuwhmRqo6q9QA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
