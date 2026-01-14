@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Sesion",
+  "Type": "Element",
+  "Id": "0IgvIPOTi0uhgV0AHZwtcw",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/0IgvIPOTi0uhgV0AHZwtcw",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/0HFN1XoAtU230zxypTwQ6A",
+  "Created": "2026-01-14T15:02:44.75617Z",
+  "Updated": "2026-01-14T15:02:44.75617Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

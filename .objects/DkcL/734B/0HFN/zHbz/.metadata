@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Sentencia",
+  "Type": "Element",
+  "Id": "zHbzJ3o-Bk-7pdInAiyceQ",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/zHbzJ3o-Bk-7pdInAiyceQ",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/0HFN1XoAtU230zxypTwQ6A",
+  "Created": "2026-01-14T15:09:22.6687786Z",
+  "Updated": "2026-01-14T15:09:22.6687786Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Filtrar órganos jurisdi…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "HOfI3wiW50aifB8pr8FaWQ",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/HOfI3wiW50aifB8pr8FaWQ",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/QTaHpcHExEWFX-UggRHS2w",
+  "Created": "2026-01-14T18:37:22.4842892Z",
+  "Updated": "2026-01-14T18:37:22.4842892Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

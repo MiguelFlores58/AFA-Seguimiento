@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ajW2NeSpXU2YB2t7M175Rw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" CVScreenId="d9f8ecd8-a3a2-430f-b87f-3a02d1dd361b" CvType="AnyWordGroup" DesignTimeRectangle="832, 636, 257, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='Label2' tag='SPAN' /&gt;" Guid="063244f7-18c9-4d06-979d-4d354de13d51" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SISE' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="353ed4bf17219df79f868d791af41a5f.png" xmlns="">0GtJr1nLBCkSh-1H-7Ct5-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

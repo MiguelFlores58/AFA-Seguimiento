@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_whm2Fqp8UKWfT3MVz8hvw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" CVScreenId="9ec307ba-7ea4-4f4d-8309-095d07233200" CvTextArea="122, 298, 42, 13" CvTextArgument="Sesion" CvType="Text" DesignTimeRectangle="103, 297, 1715, 19" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='pBody194832407' tableRow='49' tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td' tableRow='1' tag='TD' /&gt;" Guid="9570b9c6-ce36-4de1-973a-7500ee5a640f" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="676726d6cf0773c466d63b96c50df536.png" xmlns="">01Dd2zy6mnUe8RGXMDlDlig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
