@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0GNJoOoRNkaBqHT9yE8RoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="a3cc80b2-42ac-4ac7-82e6-8c8f4f4c088f" CvElementArea="678, 662, 17, 17" CvType="CheckBox" DesignTimeRectangle="680, 664, 13, 13" ElementType="CheckBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f356359b-fb2b-49ce-a766-dadbf5be4bd9" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='424e19f4-271c-21be-e1d5-4fd9ad199357' title='S I S E' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a3cc80b2-42ac-4ac7-82e6-8c8f4f4c088f" CvTextArea="710, 663, 260, 15" CvTextArgument="Juzgado Segundo de Distrito en La Laguna" CvType="Text" DesignTimeRectangle="712, 663, 258, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='Etiqueta' aaname='Juzgado Segundo de Distrito en La Laguna' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Juzgado Segundo de Distrito en La Laguna' /&gt;" Guid="ab7ec08c-6988-476c-beee-1d9895ea3b40" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="057519e684aa8d89a759f1e8392d3c9a.png" xmlns="">0lrCBx6xQyEi5uFtk_-1FHw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mouse Scroll 'Órgano jurisdiccional C…(3)'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "BSDQzy8AyEOfAfebAjEOEw",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/BSDQzy8AyEOfAfebAjEOEw",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/BLhG1yl32k6wpJMGT1qwQg",
+  "Created": "2026-01-16T23:24:37.6794095Z",
+  "Updated": "2026-01-16T23:24:37.6794095Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="nm_kbZe2PkqMlj2KWja7lA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="8n0GGyr-n0en4bzpfZN3ig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" DesignTimeRectangle="665, 368, 1066, 380" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tableRow='7' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='DIV' /&gt;" Guid="2c960b37-dda9-4f60-8379-edac3b401ec5" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ddafb249-59e0-8ce8-477a-92e8e5e8ce45' title='S I S E' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="a317be9bcdda745ce3ad11df481060fb.png" xmlns="">0srNhA_yAT0SX0sc_FZZJ1A</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="4d3ee9ea-5ef1-428b-84e7-62a228404553" CvTextArea="710, 706, 247, 15" CvTextArgument="Juzgado Cuarto de Distrito en La Laguna" CvType="Text" DesignTimeRectangle="712, 706, 245, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='161' tag='SPAN' /&gt;" Guid="9039935f-2376-48c2-8e34-c439251360b3" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='424e19f4-271c-21be-e1d5-4fd9ad199357' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7c06d0cfd9f3cde161b723f1afeaa0a4.png" xmlns="">0g7Epvgy_1Em2hmS7cK_86A</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">MouseScroll</x:String>
   </ObjectRepositoryTargetData.Data>

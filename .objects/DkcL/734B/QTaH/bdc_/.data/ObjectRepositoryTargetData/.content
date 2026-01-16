@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1ASXhCcTZ0C8n4ECKc1x3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" DesignTimeRectangle="665, 368, 1066, 380" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tableRow='7' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='DIV' /&gt;" Guid="750cf82f-9caf-4cc1-84f5-ef32e4d85983" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='424e19f4-271c-21be-e1d5-4fd9ad199357' title='S I S E' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="319f405e9860ee457c4b7f3e98a08694.png" xmlns="">0T1piL2RAvE-jutFl5YcT7A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScroll</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Juzgado Segundo de Dist…",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "MVN2J2A1ZEujE87DRTvSKg",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/MVN2J2A1ZEujE87DRTvSKg",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/QTaHpcHExEWFX-UggRHS2w",
+  "Created": "2026-01-16T23:24:59.1235357Z",
+  "Updated": "2026-01-16T23:24:59.1235357Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

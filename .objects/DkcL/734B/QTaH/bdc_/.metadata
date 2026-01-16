@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Órgano jurisdiccional C…(3)",
+  "Type": "Element",
+  "Id": "bdc_E5ARyUOwanxc9g_RiQ",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/bdc_E5ARyUOwanxc9g_RiQ",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/QTaHpcHExEWFX-UggRHS2w",
+  "Created": "2026-01-16T23:24:26.8167243Z",
+  "Updated": "2026-01-16T23:24:26.8167243Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

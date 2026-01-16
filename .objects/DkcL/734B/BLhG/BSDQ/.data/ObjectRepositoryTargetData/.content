@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BphStesQfU-ZfWbgHUiELQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="b92a9db6-ea07-4817-a4ec-9150a7f3f5f3" CvType="AnyWordGroup" DesignTimeRectangle="712, 663, 258, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='566' tag='SPAN' /&gt;" Guid="754fc188-a2d1-4d1a-a038-2ebb4b5cb677" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='424e19f4-271c-21be-e1d5-4fd9ad199357' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2e73fa2b4ea655df513ec212c545dbb4.png" xmlns="">0F0xsh0P2FEuKw9p7joz0MA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
