@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WA2IBQ0Af0mJiHNHwLQomg" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/BuJF_AS_GkeNvSenvs65RQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" DesignTimeRectangle="10, 68, 981, 42" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='PanelOrgano' tag='DIV' /&gt;&lt;webctrl tag='TD' /&gt;" Guid="055fc754-cc0a-475f-9814-b200d22fe6c7" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="de8f3eca6d36c22db461136768bf8638.png" xmlns="">0mwT0K7C5UUaY1mJfI9DdBg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

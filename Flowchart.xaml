@@ -75,9 +75,12 @@
       <AssemblyReference>System.Collections</AssemblyReference>
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Flowchart" sap:VirtualizedContainerService.HintSize="1291,692" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Flowchart" sap:VirtualizedContainerService.HintSize="1284,666" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:String" Name="strArchivoDispatcher" />
       <Variable x:TypeArguments="x:String" Name="strRutaArchivos" />
@@ -152,5 +155,16 @@
         <x:Reference>__ReferenceID1</x:Reference>
       </FlowStep.Next>
     </FlowStep>
+    <FlowSwitch x:TypeArguments="x:String" DisplayName="Flow Switch" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_2">
+      <FlowSwitch.Expression>
+        <VisualBasicValue x:TypeArguments="x:String" ExpressionText="Now.DayOfWeek.ToString" />
+      </FlowSwitch.Expression>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">390,150</av:Point>
+          <av:Size x:Key="ShapeSize">60,60</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </FlowSwitch>
   </Flowchart>
 </Activity>
