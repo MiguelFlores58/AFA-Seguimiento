@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u6NecZZJDk-TOL8Pdjgp7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" CVScreenId="7495b593-2542-4a7a-ad9c-a6a6f64a81d6" CvElementArea="53, 419, 20, 20" CvType="ArrowButton" DesignTimeRectangle="55, 421, 217, 15" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='pnlVista' tag='SPAN' /&gt;" Guid="e76df30e-408c-4b5c-87bc-350cc1795f86" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f7a5989cd344e678d61b72cf147a804b.png" xmlns="">0J0hvxcSaFUqjhlo3KbWAMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

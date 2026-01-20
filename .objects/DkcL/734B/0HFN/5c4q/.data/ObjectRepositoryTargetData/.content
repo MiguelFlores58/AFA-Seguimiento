@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yCUMBTr6jUu1Czq-iO60hA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" CVScreenId="fa2b52fd-d0b2-4f13-8077-41106ed1a5b7" CvType="AnyWordGroup" DesignTimeRectangle="596, 365, 1226, 54" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='grvAcuerdos' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='TH' class='' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="523716e3-f4fd-49b3-9dae-fd8909c0ce4e" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fa2b52fd-d0b2-4f13-8077-41106ed1a5b7" CvTextArea="811, 306, 283, 14" CvTextArgument="Síntesis de los Acuerdos asociados al Asunto" CvType="Text" DesignTimeRectangle="812, 306, 281, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='Label3' tag='SPAN' type='' class='' aaname='Síntesis de los Acuerdos asociados al Asunto' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Síntesis de los Acuerdos asociados al Asunto' /&gt;" Guid="a9d0272b-8ec1-47bf-9ebf-1b6d1c36ed02" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4c31d4c0d44db811a4635f5a3e158e91.png" xmlns="">0CemxtGJd9Ea_iOOcuj9Hcg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
