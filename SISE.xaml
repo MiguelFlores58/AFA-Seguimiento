@@ -137,7 +137,7 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="SISE" sap:VirtualizedContainerService.HintSize="1278,11324" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="SISE" sap:VirtualizedContainerService.HintSize="1193,17918" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtSintesis" />
       <Variable x:TypeArguments="x:String" Name="strFechaSesion" />
@@ -275,31 +275,31 @@
         </TryCatch.Finally>
       </TryCatch>
     </Sequence>
-    <Sequence DisplayName="Performer" sap:VirtualizedContainerService.HintSize="836,11121" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Performer" sap:VirtualizedContainerService.HintSize="836,17715" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="SISE" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="802,11038" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="SISE" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="802,17632" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="768,10793" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="768,17387" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Login SISE" sap:VirtualizedContainerService.HintSize="734,61" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence DisplayName="Login SISE" sap:VirtualizedContainerService.HintSize="734,4334" sap2010:WorkflowViewState.IdRef="Sequence_4">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:String" Name="strIdOrgano" />
                 </Sequence.Variables>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
@@ -441,94 +441,101 @@
                   </uix:NCheckState.Target>
                 </uix:NCheckState>
                 <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="452,127" sap2010:WorkflowViewState.IdRef="Delay_10" />
-                <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Órgano jurisdiccional C…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,327" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
-                  <uix:NMouseScroll.SearchedElement>
-                    <uix:SearchedElement>
-                      <uix:SearchedElement.OutUiElement>
-                        <OutArgument x:TypeArguments="ui:UiElement" />
-                      </uix:SearchedElement.OutUiElement>
-                      <uix:SearchedElement.Target>
-                        <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="b2a3332a-8cb2-45af-a122-e42b4a09aa31" ContentHash="rJYYw-Muz0qIfIbfZQrDMw" CvType="AnyWordGroup" DesignTimeRectangle="712, 411, 485, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='71' tag='SPAN' /&gt;" Guid="f663378a-50cc-499f-8e17-eeb67d38a2f3" InformativeScreenshot="4d777a38fa134529ab952600cdcc5354.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/CWf7qBvbdUisB43yvOtRnw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='79f091ff-0337-a7fb-2844-1162338b80dd' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:SearchedElement.Target>
-                      <uix:SearchedElement.Timeout>
-                        <InArgument x:TypeArguments="x:Double" />
-                      </uix:SearchedElement.Timeout>
-                    </uix:SearchedElement>
-                  </uix:NMouseScroll.SearchedElement>
-                  <uix:NMouseScroll.Target>
-                    <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="339ac643-a50d-4b71-bf0e-f6d0a05c5b40" ContentHash="Xvesx18sz0mKpNw7GBICYg" CvTextArea="711, 577, 487, 14" CvTextArgument="Primer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito" CvType="Text" DesignTimeRectangle="712, 577, 486, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='875' tag='SPAN' /&gt;" Guid="d83403c9-a832-4c6f-a47e-c62c55437723" InformativeScreenshot="6816088c94ab5f468e2e0655399045e9.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/h74WJOowCEyL4NFD81P8ZQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ddafb249-59e0-8ce8-477a-92e8e5e8ce45' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                  </uix:NMouseScroll.Target>
-                </uix:NMouseScroll>
-                <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Cuarto Tribunal Colegia…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,201" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
-                  <uix:NCheck.Target>
-                    <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="9ddda7c5-ed80-428e-a638-bcec9cfb0f09" ContentHash="3g50mXIlx06lu8rVZKjtKA" CvElementArea="678, 577, 17, 17" CvType="CheckBox" DesignTimeRectangle="680, 578, 13, 13" ElementType="CheckBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="41fc619e-db59-48c1-bfc1-a84bd4eb1bf7" InformativeScreenshot="eb6ae3642528987335a0fc193503b967.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/_3Arbp_wyE6XuwVP6vZKUA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ddafb249-59e0-8ce8-477a-92e8e5e8ce45' title='S I S E' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                      <uix:TargetAnchorable.Anchors>
-                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                          <uix:Target CVScreenId="9ddda7c5-ed80-428e-a638-bcec9cfb0f09" CvTextArea="711, 577, 487, 14" CvTextArgument="Primer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito" CvType="Text" DesignTimeRectangle="712, 577, 486, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='Etiqueta' aaname='Primer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Primer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' /&gt;" Guid="be2a2748-2d31-403c-9412-6d796004834b" SearchSteps="FuzzySelector, CV" />
-                        </scg:List>
-                      </uix:TargetAnchorable.Anchors>
-                    </uix:TargetAnchorable>
-                  </uix:NCheck.Target>
-                </uix:NCheck>
-                <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Órgano jurisdiccional C…(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,327" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
-                  <uix:NMouseScroll.SearchedElement>
-                    <uix:SearchedElement>
-                      <uix:SearchedElement.OutUiElement>
-                        <OutArgument x:TypeArguments="ui:UiElement" />
-                      </uix:SearchedElement.OutUiElement>
-                      <uix:SearchedElement.Target>
-                        <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="2b456eaa-0473-4322-92f3-6258f597b351" ContentHash="FSHQE2AAc0eT-S7EgyoEGw" CvType="AnyWordGroup" DesignTimeRectangle="712, 491, 499, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='1013' tag='SPAN' /&gt;" Guid="896dd89c-bc08-4bca-808e-ddca7006ac2c" InformativeScreenshot="fa2ec56e44c6271189c2ba57f4713e82.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/Fr25dsDi70CMExkw4BBH6Q" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ddafb249-59e0-8ce8-477a-92e8e5e8ce45' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:SearchedElement.Target>
-                      <uix:SearchedElement.Timeout>
-                        <InArgument x:TypeArguments="x:Double" />
-                      </uix:SearchedElement.Timeout>
-                    </uix:SearchedElement>
-                  </uix:NMouseScroll.SearchedElement>
-                  <uix:NMouseScroll.Target>
-                    <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" ContentHash="S_GEfLFQo0ehRAVY8o6fow" DesignTimeRectangle="665, 368, 1066, 380" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tableRow='7' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='DIV' /&gt;" Guid="4646d96c-7749-4cf6-b53c-51c44d62752a" InformativeScreenshot="ee5017bf6272cb469af06aa5ba939366.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/-sUFyQ8Z6UOVA6Bo91SGIQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ddafb249-59e0-8ce8-477a-92e8e5e8ce45' title='S I S E' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-                  </uix:NMouseScroll.Target>
-                </uix:NMouseScroll>
-                <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Segundo Tribunal Colegi…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,201" sap2010:WorkflowViewState.IdRef="NCheck_2" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
-                  <uix:NCheck.Target>
-                    <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="4eaae8cf-580d-4721-8439-59f06bf7c5c4" ContentHash="adxE0p7j40-Y-z3n3NHC6w" CvElementArea="678, 490, 17, 16" CvType="CheckBox" DesignTimeRectangle="680, 492, 13, 13" ElementType="CheckBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="402274dc-cdc4-48b4-bd0e-6911f58ac2b3" InformativeScreenshot="a41209b163dee91ad366494aef0faa26.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/wGrouSwIb02EcQkOGQTvAA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ddafb249-59e0-8ce8-477a-92e8e5e8ce45' title='S I S E' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                      <uix:TargetAnchorable.Anchors>
-                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                          <uix:Target CVScreenId="4eaae8cf-580d-4721-8439-59f06bf7c5c4" CvTextArea="711, 491, 500, 15" CvTextArgument="Segundo Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito" CvType="Text" DesignTimeRectangle="712, 491, 499, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='Etiqueta' aaname='Segundo Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Segundo Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' /&gt;" Guid="f6a197b4-d0b9-4d1b-9204-fb9ab2f094b9" SearchSteps="FuzzySelector, CV" />
-                        </scg:List>
-                      </uix:TargetAnchorable.Anchors>
-                    </uix:TargetAnchorable>
-                  </uix:NCheck.Target>
-                </uix:NCheck>
-                <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Órgano jurisdiccional C…(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,327" sap2010:WorkflowViewState.IdRef="NMouseScroll_4" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
-                  <uix:NMouseScroll.SearchedElement>
-                    <uix:SearchedElement>
-                      <uix:SearchedElement.OutUiElement>
-                        <OutArgument x:TypeArguments="ui:UiElement" />
-                      </uix:SearchedElement.OutUiElement>
-                      <uix:SearchedElement.Target>
-                        <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="ddc82104-ba63-4723-9551-b2b33d26040d" ContentHash="u28kH1lMpU-RFMkKFpfzmQ" CvType="AnyWordGroup" DesignTimeRectangle="712, 459, 483, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='1124' tag='SPAN' /&gt;" Guid="1b9fbd0e-bb03-417a-903f-b01a298193c7" InformativeScreenshot="e3369ead34a3f777b75ffb960668af7b.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/or_6ts-nc0KP7W5Dr_XdTQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ddafb249-59e0-8ce8-477a-92e8e5e8ce45' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:SearchedElement.Target>
-                      <uix:SearchedElement.Timeout>
-                        <InArgument x:TypeArguments="x:Double" />
-                      </uix:SearchedElement.Timeout>
-                    </uix:SearchedElement>
-                  </uix:NMouseScroll.SearchedElement>
-                  <uix:NMouseScroll.Target>
-                    <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" ContentHash="nm_kbZe2PkqMlj2KWja7lA" DesignTimeRectangle="665, 368, 1066, 380" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tableRow='7' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='DIV' /&gt;" Guid="2c960b37-dda9-4f60-8379-edac3b401ec5" InformativeScreenshot="a317be9bcdda745ce3ad11df481060fb.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/4ljVDgiPkEuelWyj6hSWXw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ddafb249-59e0-8ce8-477a-92e8e5e8ce45' title='S I S E' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-                  </uix:NMouseScroll.Target>
-                </uix:NMouseScroll>
-                <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Tercer Tribunal Colegia…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,201" sap2010:WorkflowViewState.IdRef="NCheck_3" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
-                  <uix:NCheck.Target>
-                    <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="f4d94f35-586c-4436-b875-65f795b14441" ContentHash="MY-X6MfAPk6tEicfrAGWrw" CvElementArea="678, 458, 17, 17" CvType="CheckBox" DesignTimeRectangle="680, 460, 13, 13" ElementType="CheckBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f2803056-22a5-490c-97c2-1b7cc2848116" InformativeScreenshot="0977a2fa2285452cd2fbfd208bc9daaf.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/8BcFy_Y7d0uDGL_wFDqBRg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ddafb249-59e0-8ce8-477a-92e8e5e8ce45' title='S I S E' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                      <uix:TargetAnchorable.Anchors>
-                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                          <uix:Target CVScreenId="f4d94f35-586c-4436-b875-65f795b14441" CvTextArea="710, 459, 486, 13" CvTextArgument="Tercer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito" CvType="Text" DesignTimeRectangle="712, 459, 483, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='Etiqueta' aaname='Tercer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tercer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' /&gt;" Guid="9c9a48ac-5695-4e2a-87af-ae17aa4e2cec" SearchSteps="FuzzySelector, CV" />
-                        </scg:List>
-                      </uix:TargetAnchorable.Anchors>
-                    </uix:TargetAnchorable>
-                  </uix:NCheck.Target>
-                </uix:NCheck>
-                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  ctl00_MainConten...'" sap:VirtualizedContainerService.HintSize="452,136" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT">
+                <Sequence DisplayName="Seleccionar Juzgados Colegiados" sap:VirtualizedContainerService.HintSize="452,1679" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Primer Juzgado Colegiado 8circuito" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,327" sap2010:WorkflowViewState.IdRef="NMouseScroll_7" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
+                    <uix:NMouseScroll.SearchedElement>
+                      <uix:SearchedElement>
+                        <uix:SearchedElement.OutUiElement>
+                          <OutArgument x:TypeArguments="ui:UiElement" />
+                        </uix:SearchedElement.OutUiElement>
+                        <uix:SearchedElement.Target>
+                          <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="6264836e-af70-4f05-90c5-2f2f133964ea" ContentHash="0v_gdgOhs0Oc-5cE3n2MDQ" CvType="AnyWordGroup" DesignTimeRectangle="712, 538, 486, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='875' tag='SPAN' /&gt;" Guid="4b1a3064-c000-4297-8984-f6d769285efa" InformativeScreenshot="dbb62bec4b21e29d86a86aed33563a40.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/JD69ldUgXU22INyEaF3slA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='1a5aaf09-e954-2d59-7114-51ab756e1618' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:SearchedElement.Target>
+                        <uix:SearchedElement.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:SearchedElement.Timeout>
+                      </uix:SearchedElement>
+                    </uix:NMouseScroll.SearchedElement>
+                    <uix:NMouseScroll.Target>
+                      <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" ContentHash="ure2Yya0eE-x9-7I4RqF1A" DesignTimeRectangle="665, 368, 1066, 380" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tableRow='7' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='DIV' /&gt;" Guid="93d035c4-b579-4e7d-b091-2fb5ff40d881" InformativeScreenshot="652333e37ffcc0573c338b20bb4b6f67.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/A-FTjLqLrkKhd-OWZdOB3g" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='1a5aaf09-e954-2d59-7114-51ab756e1618' title='S I S E' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NMouseScroll.Target>
+                  </uix:NMouseScroll>
+                  <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Primer Tribunal Colegia…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,201" sap2010:WorkflowViewState.IdRef="NCheck_4" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
+                    <uix:NCheck.Target>
+                      <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="a6f19354-0c8b-4f44-916d-977440c4eac9" ContentHash="qe6luCr0d0-27xNlI4qlbw" CvElementArea="678, 549, 17, 17" CvType="CheckBox" DesignTimeRectangle="680, 551, 13, 13" ElementType="CheckBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f291a6d7-df2e-4531-b01e-15c457742fb2" InformativeScreenshot="6bfd101d1f2e4d7e6413b73b107bb04d.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/94B9JGADp0KlbdB01QtqOg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='6a3afea8-ba4d-5417-e1db-fba838b05c64' title='S I S E' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CVScreenId="a6f19354-0c8b-4f44-916d-977440c4eac9" CvTextArea="711, 550, 487, 13" CvTextArgument="Primer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito" CvType="Text" DesignTimeRectangle="712, 550, 486, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='Etiqueta' aaname='Primer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Primer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' /&gt;" Guid="debd89f8-bc58-4a03-b631-17cbffb95b0c" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NCheck.Target>
+                  </uix:NCheck>
+                  <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Órgano jurisdiccional C…(5)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,327" sap2010:WorkflowViewState.IdRef="NMouseScroll_8" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
+                    <uix:NMouseScroll.SearchedElement>
+                      <uix:SearchedElement>
+                        <uix:SearchedElement.OutUiElement>
+                          <OutArgument x:TypeArguments="ui:UiElement" />
+                        </uix:SearchedElement.OutUiElement>
+                        <uix:SearchedElement.Target>
+                          <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="ba5f8bb9-3281-41b6-9746-a778586cec6a" ContentHash="ezPCM2bkA0KdyYrK9wF4sw" CvType="AnyWordGroup" DesignTimeRectangle="712, 564, 499, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='1013' tag='SPAN' /&gt;" Guid="d7528ce1-e350-47b4-8fbc-c4194af5739c" InformativeScreenshot="7a9c33e60d0dae6ee02825d2eaa99039.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/01WmnzvGwkmsDX6XhajR0w" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='6a3afea8-ba4d-5417-e1db-fba838b05c64' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:SearchedElement.Target>
+                        <uix:SearchedElement.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:SearchedElement.Timeout>
+                      </uix:SearchedElement>
+                    </uix:NMouseScroll.SearchedElement>
+                    <uix:NMouseScroll.Target>
+                      <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" ContentHash="x5JTgrbuCE6Rw5sFK8rKfQ" DesignTimeRectangle="665, 368, 1066, 380" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tableRow='7' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='DIV' /&gt;" Guid="47981b15-1b1b-4234-8972-25c3533d764b" InformativeScreenshot="66504e446c5554a05ef2641657c449f1.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/Ap_-2UEZb0imCvmnYWcV7g" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='6a3afea8-ba4d-5417-e1db-fba838b05c64' title='S I S E' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NMouseScroll.Target>
+                  </uix:NMouseScroll>
+                  <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Segundo Tribunal Colegi…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,201" sap2010:WorkflowViewState.IdRef="NCheck_5" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
+                    <uix:NCheck.Target>
+                      <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="a0e32c7b-a5aa-449b-a763-2b339280d478" ContentHash="_VYnPzeVVUKytOOP5HIvQw" CvElementArea="678, 564, 17, 16" CvType="CheckBox" DesignTimeRectangle="680, 565, 13, 13" ElementType="CheckBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="08c3d619-1c08-4eba-b4fd-b60096b93c58" InformativeScreenshot="54c255383756f57b26624b0f5895746e.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/SfGZ4IpyKEKMtEeH_EB1Mw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='6a3afea8-ba4d-5417-e1db-fba838b05c64' title='S I S E' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CVScreenId="a0e32c7b-a5aa-449b-a763-2b339280d478" CvTextArea="711, 564, 500, 15" CvTextArgument="Segundo Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito" CvType="Text" DesignTimeRectangle="712, 564, 499, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='Etiqueta' aaname='Segundo Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Segundo Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' /&gt;" Guid="3fb68748-c887-4f2a-8f3d-01c2a17a8195" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NCheck.Target>
+                  </uix:NCheck>
+                  <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Órgano jurisdiccional C…(6)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,327" sap2010:WorkflowViewState.IdRef="NMouseScroll_9" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
+                    <uix:NMouseScroll.SearchedElement>
+                      <uix:SearchedElement>
+                        <uix:SearchedElement.OutUiElement>
+                          <OutArgument x:TypeArguments="ui:UiElement" />
+                        </uix:SearchedElement.OutUiElement>
+                        <uix:SearchedElement.Target>
+                          <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="a39db4f2-77ba-47a8-8f19-31e718459253" ContentHash="C0x0BNiY0EasKYk7CWGQdw" CvType="AnyWordGroup" DesignTimeRectangle="712, 518, 483, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='1124' tag='SPAN' /&gt;" Guid="bdcf5c21-3aa8-45b5-bf57-76642c6ace98" InformativeScreenshot="0a36f8f1d1119f309669474789b06b78.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/xzCXRQ6XUEew8S41dp_Hdw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='b599a06d-6653-84d2-54b2-ebee016494d7' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:SearchedElement.Target>
+                        <uix:SearchedElement.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:SearchedElement.Timeout>
+                      </uix:SearchedElement>
+                    </uix:NMouseScroll.SearchedElement>
+                    <uix:NMouseScroll.Target>
+                      <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" ContentHash="YeMj1GpX6UiCW5v4TBLmZw" DesignTimeRectangle="665, 368, 1066, 380" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tableRow='7' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='DIV' /&gt;" Guid="28beb5d7-e7de-48e1-b8ef-1b859d5aff1f" InformativeScreenshot="9d52499caaa89c7fda0bafa7c57e96c5.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/Saa4lOYmIUCdsPpgpKSSZw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='b599a06d-6653-84d2-54b2-ebee016494d7' title='S I S E' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NMouseScroll.Target>
+                  </uix:NMouseScroll>
+                  <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Tercer Tribunal Colegia…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NCheck_6" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
+                    <uix:NCheck.Target>
+                      <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="7f946dc4-688a-4e29-8ac1-bbc2bac9aac1" ContentHash="zeCIvgXdOEG7p7zO5ZtahQ" CvElementArea="678, 517, 17, 17" CvType="CheckBox" DesignTimeRectangle="680, 519, 13, 13" ElementType="CheckBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="7699cdf0-1e97-4d76-ba26-d1d170e6187e" InformativeScreenshot="f3839940761be5c182b82ec1b8bd924e.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/p0btif1nyUOn6SpdjSIQRw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='b599a06d-6653-84d2-54b2-ebee016494d7' title='S I S E' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CVScreenId="7f946dc4-688a-4e29-8ac1-bbc2bac9aac1" CvTextArea="710, 518, 486, 13" CvTextArgument="Tercer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito" CvType="Text" DesignTimeRectangle="712, 518, 483, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='Etiqueta' aaname='Tercer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tercer Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' /&gt;" Guid="b49cc686-4794-4fe6-993d-c2a109f68379" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NCheck.Target>
+                  </uix:NCheck>
+                </Sequence>
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click en Aceptar" sap:VirtualizedContainerService.HintSize="452,136" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT">
                   <ui:Click.CursorPosition>
                     <ui:CursorPosition Position="Center">
                       <ui:CursorPosition.OffsetX>
@@ -552,19 +559,19 @@
                 </ui:Click>
               </Sequence>
               <Delay Duration="00:00:04" sap:VirtualizedContainerService.HintSize="734,127" sap2010:WorkflowViewState.IdRef="Delay_2" />
-              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtColegiado]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="734,10539" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtColegiado]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="734,12860" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="732,10360" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="732,12681" sap2010:WorkflowViewState.IdRef="Sequence_43">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="Encontrar Resumen" sap:VirtualizedContainerService.HintSize="698,10296" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <Sequence DisplayName="Encontrar Resumen" sap:VirtualizedContainerService.HintSize="698,12617" sap2010:WorkflowViewState.IdRef="Sequence_7">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:String" Name="strNombre" />
                           <Variable x:TypeArguments="x:String" Name="strPaterno" />
@@ -736,15 +743,15 @@
                             </uix:VerifyExecutionOptions>
                           </uix:NClick.VerifyOptions>
                         </uix:NClick>
-                        <uix:NCheckState DisplayName="Check App State 'registros encontrados'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="664,1074" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
+                        <uix:NCheckState DisplayName="Check App State 'registros encontrados'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="664,3395" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
                           <uix:NCheckState.IfExists>
-                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,780" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="662,3101" sap2010:WorkflowViewState.IdRef="Sequence_8">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV  divContador'" sap:VirtualizedContainerService.HintSize="452,143" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
+                              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV  divContador'" sap:VirtualizedContainerService.HintSize="628,143" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
                                 <ui:Click.CursorPosition>
                                   <ui:CursorPosition Position="Center">
                                     <ui:CursorPosition.OffsetX>
@@ -756,7 +763,7 @@
                                   </ui:CursorPosition>
                                 </ui:Click.CursorPosition>
                                 <ui:Click.Target>
-                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1e1c5592-7129-49fe-96d7-6ea49b1fd245" InformativeScreenshot="39572726dbaad0ee989227150b926e61" Selector="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='h11' tableRow='7' tag='H4' /&gt;">
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1e1c5592-7129-49fe-96d7-6ea49b1fd245" InformativeScreenshot="39572726dbaad0ee989227150b926e61" Selector="&lt;html app='chrome.exe' title='S I S E' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='H4' aaname='*Amparo en revisión*' /&gt;">
                                     <ui:Target.TimeoutMS>
                                       <InArgument x:TypeArguments="x:Int32" />
                                     </ui:Target.TimeoutMS>
@@ -766,17 +773,146 @@
                                   </ui:Target>
                                 </ui:Click.Target>
                               </ui:Click>
-                              <uix:NCheckState DisplayName="Check App State 'No.'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,573" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
+                              <uix:NCheckState DisplayName="Revisa si sale la tabla de expedientes" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="628,2894" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
                                 <uix:NCheckState.IfExists>
-                                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,288" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="626,2609" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '5632025'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,224" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
+                                    <If Condition="[String.IsNullOrEmpty(strExpediente)]" DisplayName="Si expediente esta en blanco" sap:VirtualizedContainerService.HintSize="592,2321" sap2010:WorkflowViewState.IdRef="If_8">
+                                      <If.Then>
+                                        <Sequence sap2010:Annotation.AnnotationText="Si viene vacio busco el expediente" DisplayName="Then" sap:VirtualizedContainerService.HintSize="590,2157" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                                          <Sequence.Variables>
+                                            <Variable x:TypeArguments="sd:DataTable" Name="dtListaExpedientes" />
+                                          </Sequence.Variables>
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[dtListaExpedientes]" DisplayName="Extract Table Data 'Extract Table Data(1)'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='No.' ReferenceIdx='0' Name='No.'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='No. Src' ReferenceIdx='1' Name='No. Src'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Número de Expediente' ReferenceIdx='2' Name='Número de Expediente'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Número de Expediente Src' ReferenceIdx='3' Name='Número de Expediente Src'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Número de Expediente Url' ReferenceIdx='4' Name='Número de Expediente Url'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Órgano Jurisdiccional' ReferenceIdx='5' Name='Órgano Jurisdiccional'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Órgano Jurisdiccional Src' ReferenceIdx='6' Name='Órgano Jurisdiccional Src'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Nombre' ReferenceIdx='7' Name='Nombre'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Nombre Src' ReferenceIdx='8' Name='Nombre Src'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Apellido Paterno' ReferenceIdx='9' Name='Apellido Paterno'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Apellido Paterno Src' ReferenceIdx='10' Name='Apellido Paterno Src'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Apellido Materno' ReferenceIdx='11' Name='Apellido Materno'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Apellido Materno Src' ReferenceIdx='12' Name='Apellido Materno Src'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Carácter' ReferenceIdx='13' Name='Carácter'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Carácter Src' ReferenceIdx='14' Name='Carácter Src'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='No.' attr='fulltext' name2='No. Src' attr2='src' /&gt;&lt;column name='Número de Expediente' attr='fulltext' name2='Número de Expediente Src' attr2='src' name3='Número de Expediente Url' attr3='href' /&gt;&lt;column name='Órgano Jurisdiccional' attr='fulltext' name2='Órgano Jurisdiccional Src' attr2='src' /&gt;&lt;column name='Nombre' attr='fulltext' name2='Nombre Src' attr2='src' /&gt;&lt;column name='Apellido Paterno' attr='fulltext' name2='Apellido Paterno Src' attr2='src' /&gt;&lt;column name='Apellido Materno' attr='fulltext' name2='Apellido Materno Src' attr2='src' /&gt;&lt;column name='Carácter' attr='fulltext' name2='Carácter Src' attr2='src' /&gt;&lt;/extract-table&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="556,194" sap2010:WorkflowViewState.IdRef="NExtractData_4" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
+                                            <uix:NExtractData.Target>
+                                              <uix:TargetAnchorable BrowserURL="https://sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" ContentHash="yBPgFCr4IEiKK0vCHOpdWw" DesignTimeRectangle="17, 733, 1902, 96" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='tbl11' tableRow='7' tag='TABLE' /&gt;" Guid="7012f58a-1a57-4316-ba45-f423a32de2cf" InformativeScreenshot="9a85bcb723ae208ed15f25eb721c9ef5.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/eiJRsmCKrUCNfwX_2gPrTw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='4e1edcaa-abaf-ffa8-5ce0-d2e1369a108c' title='S I S E' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                            </uix:NExtractData.Target>
+                                          </uix:NExtractData>
+                                          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtListaExpedientes]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="556,1868" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
+                                            <ui:ForEachRow.Body>
+                                              <ActivityAction x:TypeArguments="sd:DataRow">
+                                                <ActivityAction.Argument>
+                                                  <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                                                </ActivityAction.Argument>
+                                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="554,1695" sap2010:WorkflowViewState.IdRef="Sequence_49">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <Assign sap:VirtualizedContainerService.HintSize="520,179" sap2010:WorkflowViewState.IdRef="Assign_14">
+                                                    <Assign.To>
+                                                      <OutArgument x:TypeArguments="x:String">[strExpediente]</OutArgument>
+                                                    </Assign.To>
+                                                    <Assign.Value>
+                                                      <InArgument x:TypeArguments="x:String">[CurrentRow("Número de Expediente").ToString.Trim]</InArgument>
+                                                    </Assign.Value>
+                                                  </Assign>
+                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click en Expediente" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,233" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
+                                                    <uix:NClick.Target>
+                                                      <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="aa295658-b5e8-436b-b4ab-1a5dd44ca948" ContentHash="qE1ZQW8VGEyaD4Dyg-nn5g" CvTextArea="79, 716, 51, 11" CvType="Text" DesignTimeRectangle="99, 716, 57, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[string.Format(&quot;&lt;html app='chrome.exe' title='S I S E' /&gt;&lt;webctrl tag='A' aaname='*{0}*' /&gt;&quot;, strExpediente)]" Guid="5c076dc4-0228-45fa-92be-3d6aa725f6c4" InformativeScreenshot="87b02d68b126b0d8487441e8d53951ad.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/wQzgDTCgtEq_xTPXyEon8w" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='3c1ec462-6ff0-aa1f-c7c3-cd1c6cf9d4e7' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                                                    </uix:NClick.Target>
+                                                    <uix:NClick.VerifyOptions>
+                                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                        <uix:VerifyExecutionOptions.Retry>
+                                                          <InArgument x:TypeArguments="x:Boolean" />
+                                                        </uix:VerifyExecutionOptions.Retry>
+                                                        <uix:VerifyExecutionOptions.Timeout>
+                                                          <InArgument x:TypeArguments="x:Double" />
+                                                        </uix:VerifyExecutionOptions.Timeout>
+                                                      </uix:VerifyExecutionOptions>
+                                                    </uix:NClick.VerifyOptions>
+                                                  </uix:NClick>
+                                                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="520,127" sap2010:WorkflowViewState.IdRef="Delay_13" />
+                                                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome ventana expedientes" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="520,974" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="53d84e6e-3092-4807-b9e6-812888cc3052" Version="V2" WindowResize="Maximize">
+                                                    <uix:NApplicationCard.Body>
+                                                      <ActivityAction x:TypeArguments="x:Object">
+                                                        <ActivityAction.Argument>
+                                                          <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                                        </ActivityAction.Argument>
+                                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,716" sap2010:WorkflowViewState.IdRef="Sequence_50">
+                                                          <Sequence.Variables>
+                                                            <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+                                                            <Variable x:TypeArguments="x:String" Name="strNombreCompara" />
+                                                          </Sequence.Variables>
+                                                          <sap:WorkflowViewStateService.ViewState>
+                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                            </scg:Dictionary>
+                                                          </sap:WorkflowViewStateService.ViewState>
+                                                          <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='New column 0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NExtractData_5" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="53d84e6e-3092-4807-b9e6-812888cc3052" Version="V5">
+                                                            <uix:NExtractData.Target>
+                                                              <uix:TargetAnchorable BrowserURL="https://sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" DesignTimeRectangle="8, 420, 1905, 5213" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='pnlVista' tag='DIV' /&gt;" Guid="85dcd2f1-356c-49b7-a1dd-770860c025db" InformativeScreenshot="53788cb295c6f710b43dc78ed4c9efbb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                                            </uix:NExtractData.Target>
+                                                          </uix:NExtractData>
+                                                          <Assign sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_15">
+                                                            <Assign.To>
+                                                              <OutArgument x:TypeArguments="x:String">[strNombreCompara]</OutArgument>
+                                                            </Assign.To>
+                                                            <Assign.Value>
+                                                              <InArgument x:TypeArguments="x:String" xml:space="preserve">[strNombre &amp; " "  &amp; strPaterno &amp; " " &amp; strMaterno]</InArgument>
+                                                            </Assign.Value>
+                                                          </Assign>
+                                                          <If Condition="[ExtractDataTable.AsEnumerable().Any(Function(fila) System.Globalization.CultureInfo.CurrentCulture.CompareInfo.IndexOf(fila(0).ToString, strNombreCompara, System.Globalization.CompareOptions.IgnoreNonSpace Or System.Globalization.CompareOptions.IgnoreCase) &gt;= 0)]" sap:VirtualizedContainerService.HintSize="452,277" sap2010:WorkflowViewState.IdRef="If_9">
+                                                            <If.Then>
+                                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,116" sap2010:WorkflowViewState.IdRef="Sequence_52">
+                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                  </scg:Dictionary>
+                                                                </sap:WorkflowViewStateService.ViewState>
+                                                                <ui:Break sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="Break_2" />
+                                                              </Sequence>
+                                                            </If.Then>
+                                                            <If.Else>
+                                                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_51">
+                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                  </scg:Dictionary>
+                                                                </sap:WorkflowViewStateService.ViewState>
+                                                              </Sequence>
+                                                            </If.Else>
+                                                          </If>
+                                                        </Sequence>
+                                                      </ActivityAction>
+                                                    </uix:NApplicationCard.Body>
+                                                    <uix:NApplicationCard.TargetApp>
+                                                      <uix:TargetApp Area="1920, 0, 1016, 673" BrowserType="Chrome" ContentHash="fjhMmGzYakmmF0dlOhJdhg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFoSURBVDhPY2CgNuDk5pb09PE/EJOQ+jU+OeMfCIPYIDGQHLp6FKCtq18Yl5j2Kz454398cvrf8Ki45yERsY+gBv0HyYHUoOsDA5AESGFcUvoffUPjWiYmJmaQuISktAPEQDj+h2EIyGlxiem/QZr5+QXUYeKm5lY9YVFxz9AMALsExTsg/4EkQDbDxERExUzRNSJjkB64ATHxKd9AfoY5GwQkJKXsA4LDr4JwbELqd3QDQAELNwDkL1CAwQXQgL2T6wpkzbGJqT9BeuAKYKEMw6CwCA6LvmtgZFIPchUnJ5e4salFh7WtwxwFReVQkGUoBkC8gOlPEFZRVY+DK2RgYAAZCPIuihdggYgNW9rYz0Q2ABTQIHGUQIRFI7JGK1uH2RpaOtmSUtJOMHWgKAZ5DyMaQQCWkGAGyCsqBcPkQM4G2QzSjDUhwYC2rn4RLCnHJaX9DouKfQoJsPS/YDF8SRkGKMpM5AAAbhv5+QeyRmkAAAAASUVORK5CYII=" InformativeScreenshot="075a73ecd43637d089f379d59131ef25.jpg" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/9wtUb-_53Ey0-lEEZrcHCQ" Selector="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" Url="https://sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" Version="V2" />
+                                                    </uix:NApplicationCard.TargetApp>
+                                                  </uix:NApplicationCard>
+                                                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="520,118" sap2010:WorkflowViewState.IdRef="Delay_16" />
+                                                </Sequence>
+                                              </ActivityAction>
+                                            </ui:ForEachRow.Body>
+                                          </ui:ForEachRow>
+                                        </Sequence>
+                                      </If.Then>
+                                      <If.Else>
+                                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="590,25" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </Sequence>
+                                      </If.Else>
+                                    </If>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click en Expediente" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="592,224" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V5">
                                       <uix:NClick.Target>
-                                        <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="aa295658-b5e8-436b-b4ab-1a5dd44ca948" ContentHash="WkiOZmXyd0iY1tAEHALLKw" CvTextArea="79, 716, 51, 11" CvTextArgument="563/2025" CvType="Text" DesignTimeRectangle="80, 716, 50, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[string.Format(&quot;&lt;webctrl id='tbl11' tag='TABLE' /&gt;&lt;webctrl tag='A' aaname='{0}' /&gt;&quot;, strExpediente)]" Guid="5c076dc4-0228-45fa-92be-3d6aa725f6c4" InformativeScreenshot="b6bb26560b1ac51f73d11db95a1f61d7.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/wQzgDTCgtEq_xTPXyEon8w" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='42c9d111-fb27-57ec-5eae-f1dc9fe25dae' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                                        <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="aa295658-b5e8-436b-b4ab-1a5dd44ca948" ContentHash="qE1ZQW8VGEyaD4Dyg-nn5g" CvTextArea="79, 716, 51, 11" CvType="Text" DesignTimeRectangle="99, 716, 57, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[string.Format(&quot;&lt;html app='chrome.exe' title='S I S E' /&gt;&lt;webctrl tag='A' aaname='*{0}*' /&gt;&quot;, strExpediente)]" Guid="5c076dc4-0228-45fa-92be-3d6aa725f6c4" InformativeScreenshot="87b02d68b126b0d8487441e8d53951ad.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/wQzgDTCgtEq_xTPXyEon8w" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='3c1ec462-6ff0-aa1f-c7c3-cd1c6cf9d4e7' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                                       </uix:NClick.Target>
                                       <uix:NClick.VerifyOptions>
                                         <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
@@ -792,7 +928,7 @@
                                   </Sequence>
                                 </uix:NCheckState.IfExists>
                                 <uix:NCheckState.IfNotExists>
-                                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="626,25" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -814,7 +950,7 @@
                             </Sequence>
                           </uix:NCheckState.IfExists>
                           <uix:NCheckState.IfNotExists>
-                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="486,25" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="662,25" sap2010:WorkflowViewState.IdRef="Sequence_9">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -827,7 +963,7 @@
                             <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="4b3bfb15-0cd4-4f46-bc6e-49d08df96344" ContentHash="Kfm79NQy30emQZMgPFSMEw" CvTextArea="907, 734, 129, 14" CvTextArgument="registros encontrados" CvType="Text" DesignTimeRectangle="908, 734, 127, 14" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='bTextoEncontrados' tableRow='7' tag='B' /&gt;" Guid="624c4cd0-6765-4488-b283-a6bf44a10140" InformativeScreenshot="596104c31788ccf5d520ccdf0a2ae32f.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/03Jwmo7lkkOMuUo2bmpPzg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='42c9d111-fb27-57ec-5eae-f1dc9fe25dae' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                           </uix:NCheckState.Target>
                         </uix:NCheckState>
-                        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Revisa el resumen" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="664,7045" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="793fe4b1-454e-4d19-a843-e29be0e4a53a" Version="V2" WindowResize="Maximize">
+                        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome SISE" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="664,7045" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="793fe4b1-454e-4d19-a843-e29be0e4a53a" Version="V2" WindowResize="Maximize">
                           <uix:NApplicationCard.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
@@ -841,7 +977,15 @@
                                 </sap:WorkflowViewStateService.ViewState>
                                 <uix:NGetText DisplayName="Get Text Numero Tribunal" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="596,147" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="793fe4b1-454e-4d19-a843-e29be0e4a53a" TextString="[strTribunal]" Version="V5">
                                   <uix:NGetText.Target>
-                                    <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" ContentHash="WA2IBQ0Af0mJiHNHwLQomg" DesignTimeRectangle="10, 68, 981, 42" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='PanelOrgano' tag='DIV' /&gt;&lt;webctrl tag='TD' /&gt;" Guid="055fc754-cc0a-475f-9814-b200d22fe6c7" InformativeScreenshot="de8f3eca6d36c22db461136768bf8638.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/BuJF_AS_GkeNvSenvs65RQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                    <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" CVScreenId="fc9f95b7-d8af-403c-a36f-00c4b2dc0ea7" ContentHash="IrRrFkk2TUOsKmDj_M_wWQ" CvType="AnyWordGroup" DesignTimeRectangle="649, 78, 623, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='lblNombreOrgano' tableRow='1' tag='SPAN' /&gt;" Guid="1e70b3d1-b6d1-4d9c-9306-5e46443b91ad" InformativeScreenshot="9dc7ecc065b60e0f0decaeca69764eb9.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/BuJF_AS_GkeNvSenvs65RQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="3">
+                                          <uix:Target CVScreenId="29e4d783-84cd-42c1-be07-45efe8e1d879" CvTextArea="367, 148, 264, 13" CvTextArgument="Número de Expediente Único Nacional:" CvType="Text" DesignTimeRectangle="368, 148, 262, 15" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='B' class='' aaname='Número de Expediente Único Nacional:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Número de Expediente Único Nacional:' /&gt;" Guid="57371327-2624-4040-915e-ab40666fc5f6" SearchSteps="FuzzySelector, CV" />
+                                          <uix:Target CVScreenId="29e4d783-84cd-42c1-be07-45efe8e1d879" CvTextArea="711, 148, 194, 15" CvTextArgument="Número de Expediente Asignado:" CvType="Text" DesignTimeRectangle="713, 149, 191, 14" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl parentid='form1' type='' tag='B' class='' aaname='Número de Expediente Asignado:' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Número de Expediente Asignado:' /&gt;" Guid="5a0353bc-fb19-4dc7-aa3b-88c868ad6ea4" SearchSteps="FuzzySelector, CV" />
+                                          <uix:Target CVScreenId="29e4d783-84cd-42c1-be07-45efe8e1d879" CvTextArea="989, 148, 372, 13" CvTextArgument="Número de control Oficina de Correspondencia Común:" CvType="Text" DesignTimeRectangle="990, 148, 371, 15" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl parentid='ucCabecero_lblTituloNoControlOCC' type='' tag='B' class='' aaname='Número de control Oficina de Correspondencia Común:' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Número de control Oficina de Correspondencia Común:' /&gt;" Guid="1a2c3bef-87f1-43b4-807e-52ea840af9de" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
                                   </uix:NGetText.Target>
                                 </uix:NGetText>
                                 <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="596,309" sap2010:WorkflowViewState.IdRef="NMouseScroll_6" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="793fe4b1-454e-4d19-a843-e29be0e4a53a" Version="V5">
@@ -938,7 +1082,7 @@
                                     </Sequence>
                                   </uix:NCheckState.IfNotExists>
                                   <uix:NCheckState.Target>
-                                    <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" CVScreenId="9ec307ba-7ea4-4f4d-8309-095d07233200" ContentHash="_whm2Fqp8UKWfT3MVz8hvw" CvTextArea="122, 298, 42, 13" CvTextArgument="Sesion" CvType="Text" DesignTimeRectangle="103, 297, 1715, 19" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='pBody194832407' tableRow='49' tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td' tableRow='1' tag='TD' /&gt;" Guid="9570b9c6-ce36-4de1-973a-7500ee5a640f" InformativeScreenshot="676726d6cf0773c466d63b96c50df536.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/0IgvIPOTi0uhgV0AHZwtcw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                                    <uix:TargetAnchorable BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" CVScreenId="4936299d-aa40-42a9-9e48-1c1756e1f4cd" ContentHash="knYccWVQ40GAOf3gTJZJzA" CvTextArea="1185, 637, 62, 13" CvTextArgument="Resumen" CvType="Text" DesignTimeRectangle="604, 618, 1226, 54" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='grvAcuerdos' tableRow='1' tag='TABLE' /&gt;&lt;webctrl aaname='Resumen' tableRow='1' tag='TH' /&gt;" Guid="ce48e891-91f8-4250-ae46-0c455aecafe6" InformativeScreenshot="8e90e408b3924440a94cb34b969259f6.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/0IgvIPOTi0uhgV0AHZwtcw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SISE' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                                   </uix:NCheckState.Target>
                                 </uix:NCheckState>
                                 <uix:NCheckState DisplayName="Check App State 'Sentencia'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="596,1223" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="793fe4b1-454e-4d19-a843-e29be0e4a53a" Version="V5">
@@ -1629,7 +1773,7 @@
                             </ActivityAction>
                           </uix:NApplicationCard.Body>
                           <uix:NApplicationCard.TargetApp>
-                            <uix:TargetApp Area="1920, 0, 1016, 673" BrowserType="Chrome" ContentHash="IXj5qtxnnEaquuPPW7nh5g" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFoSURBVDhPY2CgNuDk5pb09PE/EJOQ+jU+OeMfCIPYIDGQHLp6FKCtq18Yl5j2Kz454398cvrf8Ki45yERsY+gBv0HyYHUoOsDA5AESGFcUvoffUPjWiYmJmaQuISktAPEQDj+h2EIyGlxiem/QZr5+QXUYeKm5lY9YVFxz9AMALsExTsg/4EkQDbDxERExUzRNSJjkB64ATHxKd9AfoY5GwQkJKXsA4LDr4JwbELqd3QDQAELNwDkL1CAwQXQgL2T6wpkzbGJqT9BeuAKYKEMw6CwCA6LvmtgZFIPchUnJ5e4salFh7WtwxwFReVQkGUoBkC8gOlPEFZRVY+DK2RgYAAZCPIuihdggYgNW9rYz0Q2ABTQIHGUQIRFI7JGK1uH2RpaOtmSUtJOMHWgKAZ5DyMaQQCWkGAGyCsqBcPkQM4G2QzSjDUhwYC2rn4RLCnHJaX9DouKfQoJsPS/YDF8SRkGKMpM5AAAbhv5+QeyRmkAAAAASUVORK5CYII=" InformativeScreenshot="2cbace5fc4c0e7a222c93175801c5502.jpg" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/0HFN1XoAtU230zxypTwQ6A" Selector="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" Url="https://sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" Version="V2" />
+                            <uix:TargetApp Area="1912, -8, 1936, 1048" BrowserType="Chrome" ContentHash="dW1RG8fqD0GFIDQIgytrqw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFoSURBVDhPY2CgNuDk5pb09PE/EJOQ+jU+OeMfCIPYIDGQHLp6FKCtq18Yl5j2Kz454398cvrf8Ki45yERsY+gBv0HyYHUoOsDA5AESGFcUvoffUPjWiYmJmaQuISktAPEQDj+h2EIyGlxiem/QZr5+QXUYeKm5lY9YVFxz9AMALsExTsg/4EkQDbDxERExUzRNSJjkB64ATHxKd9AfoY5GwQkJKXsA4LDr4JwbELqd3QDQAELNwDkL1CAwQXQgL2T6wpkzbGJqT9BeuAKYKEMw6CwCA6LvmtgZFIPchUnJ5e4salFh7WtwxwFReVQkGUoBkC8gOlPEFZRVY+DK2RgYAAZCPIuihdggYgNW9rYz0Q2ABTQIHGUQIRFI7JGK1uH2RpaOtmSUtJOMHWgKAZ5DyMaQQCWkGAGyCsqBcPkQM4G2QzSjDUhwYC2rn4RLCnHJaX9DouKfQoJsPS/YDF8SRkGKMpM5AAAbhv5+QeyRmkAAAAASUVORK5CYII=" InformativeScreenshot="d77cb524e5c48e605e76c1cb550fe8f8.jpg" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/0HFN1XoAtU230zxypTwQ6A" Selector="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" Url="https://sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" Version="V2" />
                           </uix:NApplicationCard.TargetApp>
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">

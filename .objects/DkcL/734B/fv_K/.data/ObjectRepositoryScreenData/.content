@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="u4yCETm33kW04r7Fn3bC5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='chrome.exe' htmlwindowname='b599a06d-6653-84d2-54b2-ebee016494d7' title='S I S E' /&gt;" Url="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

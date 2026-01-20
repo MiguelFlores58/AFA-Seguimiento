@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="WILNDlPqdk63XSSnrz_Nig" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/wQzgDTCgtEq_xTPXyEon8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="qE1ZQW8VGEyaD4Dyg-nn5g" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/wQzgDTCgtEq_xTPXyEon8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="aa295658-b5e8-436b-b4ab-1a5dd44ca948" CvTextArea="79, 716, 51, 11" CvTextArgument="563/2025" CvType="Text" DesignTimeRectangle="99, 716, 57, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[string.Format(&quot;&lt;webctrl id='tbl1' tag='TABLE' /&gt;&lt;webctrl aaname='{0}' tag='A' /&gt;&quot;, strExpediente)]" Guid="5c076dc4-0228-45fa-92be-3d6aa725f6c4" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='3c1ec462-6ff0-aa1f-c7c3-cd1c6cf9d4e7' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="87b02d68b126b0d8487441e8d53951ad.png" xmlns="">0woYa35T0pkSLOURjVwapIA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="aa295658-b5e8-436b-b4ab-1a5dd44ca948" CvTextArea="79, 716, 51, 11" CvType="Text" DesignTimeRectangle="99, 716, 57, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[string.Format(&quot;&lt;html app='chrome.exe' title='S I S E' /&gt;&lt;webctrl tag='A' aaname='*{0}*' /&gt;&quot;, strExpediente)]" Guid="5c076dc4-0228-45fa-92be-3d6aa725f6c4" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='3c1ec462-6ff0-aa1f-c7c3-cd1c6cf9d4e7' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="87b02d68b126b0d8487441e8d53951ad.png" xmlns="">0SkV8nIwSAU6rU0vV_ZvZcA</imageRef>
     </TargetAnchorable>
     <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
-      <ObjectRepositoryVariableData DefaultValue="*" Name="strExpediente" />
+      <ObjectRepositoryVariableData Name="strExpediente" />
     </scg:List>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

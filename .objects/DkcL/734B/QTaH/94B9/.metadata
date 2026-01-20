@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Primer Tribunal Colegia…",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "94B9JGADp0KlbdB01QtqOg",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/94B9JGADp0KlbdB01QtqOg",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/QTaHpcHExEWFX-UggRHS2w",
+  "Created": "2026-01-20T15:03:37.5991305Z",
+  "Updated": "2026-01-20T15:03:37.5991305Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_VYnPzeVVUKytOOP5HIvQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosI.aspx" CVScreenId="a0e32c7b-a5aa-449b-a763-2b339280d478" CvElementArea="678, 564, 17, 16" CvType="CheckBox" DesignTimeRectangle="680, 565, 13, 13" ElementType="CheckBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="08c3d619-1c08-4eba-b4fd-b60096b93c58" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='6a3afea8-ba4d-5417-e1db-fba838b05c64' title='S I S E' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a0e32c7b-a5aa-449b-a763-2b339280d478" CvTextArea="711, 564, 500, 15" CvTextArgument="Segundo Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito" CvType="Text" DesignTimeRectangle="712, 564, 499, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Órgano jurisdiccional' tag='TABLE' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='Etiqueta' aaname='Segundo Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Segundo Tribunal Colegiado en Materias Penal y Administrativa del Octavo Circuito' /&gt;" Guid="3fb68748-c887-4f2a-8f3d-01c2a17a8195" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="54c255383756f57b26624b0f5895746e.png" xmlns="">0xHgYpKwP4EqIDdDobz_kvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome SISE(3)",
+  "Type": "Screen",
+  "Id": "9wtUb-_53Ey0-lEEZrcHCQ",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/9wtUb-_53Ey0-lEEZrcHCQ",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/734Bh3ILm0OKWesRW07Dsw",
+  "Created": "2026-01-20T15:39:07.7953817Z",
+  "Updated": "2026-01-20T15:39:07.7953817Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

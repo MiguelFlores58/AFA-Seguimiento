@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Primer Juzgado Colegiado 8circuito",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "JD69ldUgXU22INyEaF3slA",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/JD69ldUgXU22INyEaF3slA",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/3viyCLjmIk2HPl4bhSjAEQ",
+  "Created": "2026-01-20T14:59:30.2073998Z",
+  "Updated": "2026-01-20T14:59:30.2073998Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
