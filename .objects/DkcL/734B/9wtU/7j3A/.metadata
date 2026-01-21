@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Número origen",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "7j3AuijjUUettm6d620bpQ",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/7j3AuijjUUettm6d620bpQ",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/9wtUb-_53Ey0-lEEZrcHCQ",
+  "Created": "2026-01-20T21:01:54.1572789Z",
+  "Updated": "2026-01-20T21:01:54.1572789Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
