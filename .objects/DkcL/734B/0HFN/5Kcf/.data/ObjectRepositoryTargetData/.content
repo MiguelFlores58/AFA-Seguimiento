@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="M-l7FaV-Mk2AmmTlO9N6JQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" CVScreenId="380e7596-b69b-47c5-9e4c-cf9b3ca2a22a" CvType="AnyWordGroup" DesignTimeRectangle="918, 216, 59, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='ucCabecero_lblNoExpedienteAsignado' tableRow='1' tag='SPAN' /&gt;" Guid="63542850-ecd6-4043-a919-ff6b96b4bf1b" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="380e7596-b69b-47c5-9e4c-cf9b3ca2a22a" CvTextArea="715, 217, 193, 15" CvTextArgument="Número de Expediente Asignado:" CvType="Text" DesignTimeRectangle="716, 218, 192, 14" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl parentid='form1' type='' tag='B' class='' aaname='Número de Expediente Asignado:' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Número de Expediente Asignado:' /&gt;" Guid="f4d3356a-7247-4297-bd08-2031f5ebf9dc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="aa2f36436e367d66afbaafb1b1e3c6b7.png" xmlns="">0MeR7RX87RUaJX4wa1yLBvg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

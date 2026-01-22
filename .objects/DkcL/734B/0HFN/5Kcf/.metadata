@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Número de Expediente As…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "5Kcf2ZHzAUmj7OCuV0j9Ew",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/5Kcf2ZHzAUmj7OCuV0j9Ew",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/0HFN1XoAtU230zxypTwQ6A",
+  "Created": "2026-01-22T06:30:08.7533082Z",
+  "Updated": "2026-01-22T06:30:08.7533082Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
