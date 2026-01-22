@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Igxdh2eJuUSOQa0qR9DR5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="5cd225bd-f49e-41ca-ac2e-74682ac05bd5" CvTextArea="739, 214, 442, 24" CvTextArgument="Resumen de Envío de Promociones" CvType="Text" DesignTimeRectangle="662, 178, 598, 89" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='contenedorEnvioPromociones' tag='DIV' /&gt;" Guid="c1bcb13c-8a67-4db6-851c-ad77a5f681e1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5cd225bd-f49e-41ca-ac2e-74682ac05bd5" CvElementArea="1213, 354, 19, 19" CvTextArea="692, 355, 535, 14" CvTextArgument="Está a punto de enviar las siguientes promociones firmadas electrónicamente.X" CvType="CloseButton" DesignTimeRectangle="677, 337, 568, 52" FuzzySelectorArgument="&lt;webctrl aria-role='alert' tag='DIV' type='' class='alert alert-info alert-Dismissible' aaname='                       ' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='×&amp;#xA;Close&amp;#xA;Está a punto de enviar las siguientes promociones firmadas electrónicamente.' /&gt;" Guid="6a8a1df6-0bf2-48d2-a706-64c94050bc05" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="566489b08e35d76b3d60b75ec76db15f.png" xmlns="">0cTnmfE6JzUat8iBl99lFXQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

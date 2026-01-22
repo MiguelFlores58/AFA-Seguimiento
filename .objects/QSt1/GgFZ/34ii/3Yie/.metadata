@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Error al registrar la p…",
+  "Type": "Element",
+  "Id": "3Yie5HPuTEaREa7CYL7wXA",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/3Yie5HPuTEaREa7CYL7wXA",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/34iixG0qpkyk1DmZMT_7Zw",
+  "Created": "2026-01-22T06:05:25.6469334Z",
+  "Updated": "2026-01-22T06:05:25.6469334Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

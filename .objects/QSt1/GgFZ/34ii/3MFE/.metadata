@@ -1,0 +1,13 @@
+﻿{
+  "Name": "×Close Está a punto de …",
+  "Type": "Element",
+  "Id": "3MFEzDwWdEizWYp_UJQp1g",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/3MFEzDwWdEizWYp_UJQp1g",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/34iixG0qpkyk1DmZMT_7Zw",
+  "Created": "2026-01-22T06:04:02.5549826Z",
+  "Updated": "2026-01-22T06:04:02.5549826Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

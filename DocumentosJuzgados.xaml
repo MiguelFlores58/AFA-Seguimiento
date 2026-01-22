@@ -113,7 +113,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="RemitirColegiado" sap:VirtualizedContainerService.HintSize="1223,2336" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="RemitirColegiado" sap:VirtualizedContainerService.HintSize="1280,2336" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -145,7 +145,7 @@
                 <OutArgument x:TypeArguments="x:String">[strPathCopia]</OutArgument>
               </ui:AssignOperation.To>
               <ui:AssignOperation.Value>
-                <InArgument x:TypeArguments="x:String">["C:\AFA\" &amp; strPlantilla.Split(" ")(0) &amp; "_" &amp; strNumJuzgado &amp; strExpediente.Replace("/", "-") &amp; ".docx"]</InArgument>
+                <InArgument x:TypeArguments="x:String">["C:\AFA\" &amp; strPlantilla.Split(" ")(0) &amp; "" &amp; strNumJuzgado &amp; strExpediente.Replace("/", "") &amp; ".docx"]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">

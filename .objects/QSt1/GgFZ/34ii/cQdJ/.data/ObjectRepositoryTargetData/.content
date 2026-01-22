@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1FxPAMkfd0KPKouupt2Uuw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="f2e236e3-57cd-4540-b0e3-6c7c7ab06b37" CvElementArea="1171, 371, 67, 33" CvTextArea="1183, 380, 44, 14" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="1174, 373, 63, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='MensajeError' tag='BUTTON' /&gt;" Guid="53491588-d673-4406-8db7-e363737e0214" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f2e236e3-57cd-4540-b0e3-6c7c7ab06b37" CvTextArea="764, 214, 377, 29" CvTextArgument="Error al registrar la promoción" CvType="Text" DesignTimeRectangle="669, 213, 568, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='CabeceroMensajeError' tag='H2' type='' class='text-danger text-center' aaname='Error al registrar la promoción' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Error al registrar la promoción' /&gt;" Guid="6e36ddd4-052c-49d5-9fc7-cfe079fba331" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="026571133ed71977daef1c1b5551fb33.png" xmlns="">0A5PBQNjWv0qmskOMdOgA6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

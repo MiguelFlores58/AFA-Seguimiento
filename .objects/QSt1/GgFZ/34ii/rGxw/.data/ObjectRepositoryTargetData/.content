@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9u9WhL5WdUeCGpKIoGybhQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="5cd225bd-f49e-41ca-ac2e-74682ac05bd5" CvElementArea="960, 595, 204, 33" CvTextArea="973, 604, 177, 12" CvTextArgument="Confirmar y Enviar Promociones." CvType="Button" DesignTimeRectangle="961, 596, 201, 31" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnConfirmarEnviarPromociones' tag='INPUT' /&gt;" Guid="ec765a32-972b-4b1c-9c8c-648a2d86985b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a953d9f38680dafe43e6bc2819d61da9.png" xmlns="">0p4TIffWar0yeGaNcyYr9kg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
