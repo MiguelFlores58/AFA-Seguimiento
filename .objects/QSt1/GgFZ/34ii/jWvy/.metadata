@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Contraseña(1)",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "jWvyQ9NVbk-A-AKcMWLxwA",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/jWvyQ9NVbk-A-AKcMWLxwA",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/34iixG0qpkyk1DmZMT_7Zw",
+  "Created": "2026-01-21T19:04:44.9878891Z",
+  "Updated": "2026-01-21T19:04:44.9878891Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

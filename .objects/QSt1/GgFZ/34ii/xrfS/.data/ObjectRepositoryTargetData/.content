@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uaQuwnARsE6ZN1_hk__B1Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="a10c8518-5a25-4811-bda5-c212dd68e256" CvTextArea="1073, 257, 61, 12" CvTextArgument="KEY - CER" CvType="Text" DesignTimeRectangle="963, 250, 282, 29" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='aKeyCer' parentid='tabsFirmaModal' tag='A' /&gt;" Guid="7883a758-222a-42ae-af37-5fe04e093542" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="aaf1ce4898cc5d684d9ba40a0a72b8e4.png" xmlns="">0oNvj835LnU2rK7Hr0vmzrA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

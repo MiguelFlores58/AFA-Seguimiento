@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QhrcQL1vSk2F_5xSU7eg3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="b9aaaf97-91df-4463-b712-f3dabd9dc8f6" CvElementArea="689, 750, 825, 37" CvType="InputBox" DesignTimeRectangle="691, 752, 825, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='IdTipoAsunto_chosen' tag='A' type='' class='chosen-single chosen-default' aaname='Seleccione una opción' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Seleccione una opción' /&gt;" Guid="65d6c1fb-30a7-4912-94c3-045def4937ab" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b9aaaf97-91df-4463-b712-f3dabd9dc8f6" CvTextArea="558, 762, 103, 16" CvTextArgument="Tipo de Asunto" CvType="Text" DesignTimeRectangle="391, 752, 285, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='TipoAsuntoDiv' tag='LABEL' type='' class='col-sm-3 control-label' aaname='Tipo de Asunto' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tipo de Asunto' /&gt;" Guid="31dea098-b9aa-4ccc-9201-16186647f6e7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="207485949ac1960df723e29ea1aa52d0.png" xmlns="">0MSdyYA49QUa9kpwgd3EcDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

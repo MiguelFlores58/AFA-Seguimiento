@@ -1,0 +1,14 @@
+﻿{
+  "Name": "KEY - CER",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "xrfSRZcg9UWnA2jTwkkLMg",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/xrfSRZcg9UWnA2jTwkkLMg",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/34iixG0qpkyk1DmZMT_7Zw",
+  "Created": "2026-01-21T17:38:21.1651876Z",
+  "Updated": "2026-01-21T17:38:21.1651876Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

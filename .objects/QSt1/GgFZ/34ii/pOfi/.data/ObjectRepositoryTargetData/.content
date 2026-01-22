@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-p0YKpqnjUiKSgjrqru4eQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="eb1f3590-7ac2-4d24-a039-d519043d785c" CvElementArea="688, 815, 827, 36" CvType="InputBox" DesignTimeRectangle="691, 816, 825, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='NumeroExpedente' tag='INPUT' type='text' class='form-control' aaname='Expediente' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3bcddd1a-4e6a-4334-9b96-4178d203a473" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="eb1f3590-7ac2-4d24-a039-d519043d785c" CvTextArea="585, 826, 76, 16" CvTextArgument="Expediente" CvType="Text" DesignTimeRectangle="391, 816, 285, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ExpedienteDiv' tag='LABEL' type='' class='col-sm-3 control-label' aaname='Expediente' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Expediente' /&gt;" Guid="f36dacdd-a85d-4d44-8a8a-660d7e8d8644" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5f38b545a52c6a8437a99bfba749700f.png" xmlns="">0GBuI7SUtgE27HGoTz8VMGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

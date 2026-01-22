@@ -1,5 +1,6 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="RemitirColegiado" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
+    <x:Property Name="out_RutaArchivoGenerado" Type="OutArgument(x:String)" />
     <x:Property Name="strPlantilla" Type="InArgument(x:String)" />
     <x:Property Name="strFechaLetraHoy" Type="InArgument(x:String)" />
     <x:Property Name="strFechaLetra" Type="InArgument(x:String)" />
@@ -112,13 +113,13 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="RemitirColegiado" sap:VirtualizedContainerService.HintSize="1278,2242" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="RemitirColegiado" sap:VirtualizedContainerService.HintSize="1223,2336" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="522,2219" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="522,2313" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="strPathPlantilla" />
         <Variable x:TypeArguments="x:String" Name="strPathCopia" />
@@ -128,7 +129,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="488,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="488,211" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
         <ui:MultipleAssign.AssignOperations>
           <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -144,14 +145,22 @@
                 <OutArgument x:TypeArguments="x:String">[strPathCopia]</OutArgument>
               </ui:AssignOperation.To>
               <ui:AssignOperation.Value>
-                <InArgument x:TypeArguments="x:String" xml:space="preserve">["C:\\AFA\\" &amp; strPlantilla.Split(" ")(0) &amp; "_"  &amp; strNumJuzgado &amp; strExpediente &amp; ".docx"]</InArgument>
+                <InArgument x:TypeArguments="x:String">["C:\AFA\" &amp; strPlantilla.Split(" ")(0) &amp; "_" &amp; strNumJuzgado &amp; strExpediente.Replace("/", "-") &amp; ".docx"]</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[out_RutaArchivoGenerado]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">[strPathCopia]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
           </scg:List>
         </ui:MultipleAssign.AssignOperations>
       </ui:MultipleAssign>
       <ui:CopyFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[strPathCopia]" DisplayName="Copy File" sap:VirtualizedContainerService.HintSize="488,224" sap2010:WorkflowViewState.IdRef="CopyFile_1" Path="[strPathPlantilla.ToString.Trim]" />
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="488,1732" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="488,1795" sap2010:WorkflowViewState.IdRef="TryCatch_1">
         <TryCatch.Try>
           <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="486,1375" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
@@ -188,10 +197,11 @@
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,94" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,25" sap2010:WorkflowViewState.IdRef="Sequence_5">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </Sequence>
@@ -199,12 +209,14 @@
           </Catch>
         </TryCatch.Catches>
         <TryCatch.Finally>
-          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="486,94" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="486,226" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="452,162" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="WINWORD.EXE" />
           </Sequence>
         </TryCatch.Finally>
       </TryCatch>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Expediente",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "pOfi56VjjEyDlQIPcyAAnA",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/pOfi56VjjEyDlQIPcyAAnA",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/34iixG0qpkyk1DmZMT_7Zw",
+  "Created": "2026-01-21T17:27:01.0981201Z",
+  "Updated": "2026-01-21T17:27:01.0981201Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

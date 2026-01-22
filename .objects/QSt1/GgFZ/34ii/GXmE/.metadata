@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Seleccione una opción(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "GXmEDMB6a0uQMI9-fOhgow",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/GXmEDMB6a0uQMI9-fOhgow",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/34iixG0qpkyk1DmZMT_7Zw",
+  "Created": "2026-01-21T17:22:23.0813494Z",
+  "Updated": "2026-01-21T17:22:23.0813494Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

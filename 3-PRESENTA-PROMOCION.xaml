@@ -1,0 +1,769 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_3_PRESENTA_PROMOCION" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_strEstado" Type="InArgument(x:String)" />
+    <x:Property Name="in_strTipoOrgano" Type="InArgument(x:String)" />
+    <x:Property Name="in_strMateria" Type="InArgument(x:String)" />
+    <x:Property Name="in_strOrgano" Type="InArgument(x:String)" />
+    <x:Property Name="in_strTipoAsunto" Type="InArgument(x:String)" />
+    <x:Property Name="in_strExpediente" Type="InArgument(x:String)" />
+    <x:Property Name="in_strDocumento" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>_3_PRESENTA_PROMOCION_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Dom</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Results</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.IntelligentOCR.Activities.Digitization</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentProcessing.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.OmniPage.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OmniPage.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentUnderstanding.ML.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="_3_PRESENTA_PROMOCION" sap:VirtualizedContainerService.HintSize="1223,8232" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="588,8209" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome Portal de Servicios en Línea del Poder" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="554,8126" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V2" WindowResize="Maximize">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,7881" sap2010:WorkflowViewState.IdRef="Sequence_51">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence DisplayName="Login Portal del PJF" sap:VirtualizedContainerService.HintSize="486,61" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Ingresar nombre de usuario" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,259" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Text="SSANCHEZMU" Version="V5">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/Login" CVScreenId="b003654f-291d-49c8-8e2e-0b4e4552e8af" ContentHash="SaHbaT0dI0muMlP3GqI_vg" CvElementArea="828, 580, 500, 36" CvType="InputBox" DesignTimeRectangle="835, 581, 492, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='UserName' tag='INPUT' type='text' class='form-control' placeholder='Ingrese Usuario' aaname='Usuario' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d846342e-38f3-4bee-9be4-1dc19bce1b51" InformativeScreenshot="fee539b15e9633ceb9c857f69a414963.png" IsResponsive="True" Reference="uT86UzNhlUel-TR6kBwA5A/biPLFifzO0icEa50snn5YQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Portal de Servicios en Línea del Poder Judicial de la Federación - Consejo de la Judicatura Federal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="b003654f-291d-49c8-8e2e-0b4e4552e8af" CvTextArea="713, 591, 54, 13" CvTextArgument="Usuario" CvType="Text" DesignTimeRectangle="594, 581, 187, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='loginForm' tag='LABEL' type='' class='col-sm-3 control-label' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Usuario &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Usuario' /&gt;" Guid="e8114bbb-3624-4883-a1ff-a48e82bf6ab5" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NTypeInto>
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Ingresar contraseña" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,259" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Text="sanchez2402" Version="V5">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/Login" CVScreenId="36c2d28c-2313-4f61-950e-3859e6b3d497" ContentHash="ZGbs6mK7RkCHieR-50lM1Q" CvElementArea="822, 629, 505, 35" CvType="InputBox" DesignTimeRectangle="835, 630, 492, 34" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='UserPassword' tag='INPUT' type='password' class='form-control' placeholder='Ingrese Contraseña' aaname='Contraseña de Usuario' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="17ddd970-146f-4a70-92bb-7c82bd4f6e2d" InformativeScreenshot="9c390f1bc6c37377af2619230ed5a9cd.png" Reference="uT86UzNhlUel-TR6kBwA5A/fX1OI2JgO0eWqa8pN6d-Nw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Portal de Servicios en Línea del Poder Judicial de la Federación - Consejo de la Judicatura Federal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="36c2d28c-2313-4f61-950e-3859e6b3d497" CvTextArea="688, 639, 78, 14" CvTextArgument="Contraseña" CvType="Text" DesignTimeRectangle="594, 630, 187, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Contraseña &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='loginForm' tag='LABEL' type='' class='col-sm-3 control-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Contraseña' /&gt;" Guid="9ed194cf-0af9-412c-9bf1-c08f01d43798" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NTypeInto>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ingresar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/Login" CVScreenId="11572a70-0345-4f64-8fe6-861e0d0635c0" ContentHash="84t9lf_duE24lzmP4-RMJw" CvElementArea="871, 678, 69, 32" CvTextArea="882, 686, 46, 14" CvTextArgument="Ingresar" CvType="Button" DesignTimeRectangle="872, 679, 66, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnIngresaLogin' tag='INPUT' /&gt;" Guid="eb891452-7534-4fa8-90f1-09d288b91e8f" InformativeScreenshot="3ecf5eaf903eb9221b7c8be821859e93.png" Reference="uT86UzNhlUel-TR6kBwA5A/iuyFDp30BkizbbD2ggrZeA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Portal de Servicios en Línea del Poder Judicial de la Federación - Consejo de la Judicatura Federal' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                  <uix:NClick.VerifyOptions>
+                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                      <uix:VerifyExecutionOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionOptions.Retry>
+                      <uix:VerifyExecutionOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionOptions.Timeout>
+                    </uix:VerifyExecutionOptions>
+                  </uix:NClick.VerifyOptions>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NClick>
+              </Sequence>
+              <Sequence DisplayName="Interacción con el Portal del Poder Judicial" sap:VirtualizedContainerService.HintSize="486,7754" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Persona Física'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="a300c046-919d-4491-93ac-278236ea3b48" ContentHash="upd8MGQvpE-vBfCJTVw6UA" CvElementArea="728, 192, 81, 75" CvType="Icon" DesignTimeRectangle="723, 190, 91, 80" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='image' /&gt;" Guid="ea12192c-864a-453e-8fe7-f6d262ae9ae3" ImageBase64="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" InformativeScreenshot="ef1c77fabda59a7d320374002aa08559.png" Reference="uT86UzNhlUel-TR6kBwA5A/wMoGhcN0z0-UMSmaO5f9NQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="a300c046-919d-4491-93ac-278236ea3b48" CvTextArea="718, 272, 100, 14" CvTextArgument="Persona Física" CvType="Text" DesignTimeRectangle="684, 270, 169, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='form0' tag='LABEL' type='' class='lbTipoPersona' aaname='Persona Física' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Persona Física' /&gt;" Guid="c9395154-0ab6-4c46-b9ab-3e065bb50248" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                  <uix:NClick.VerifyOptions>
+                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                      <uix:VerifyExecutionOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionOptions.Retry>
+                      <uix:VerifyExecutionOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionOptions.Timeout>
+                    </uix:VerifyExecutionOptions>
+                  </uix:NClick.VerifyOptions>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Promociones y Recursos'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" ContentHash="t6GCjlxJX0KGCpb3m3LDRg" DesignTimeRectangle="774, 247, 93, 100" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnPromociones' tag='A' /&gt;" Guid="a42d6406-2357-4f57-986d-80c76f857140" InformativeScreenshot="091c21cb1a916fa8af8f6df928e64d98.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/m2K1e5H-UE2RxSotpbjmXg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                  <uix:NClick.VerifyOptions>
+                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                      <uix:VerifyExecutionOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionOptions.Retry>
+                      <uix:VerifyExecutionOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionOptions.Timeout>
+                    </uix:VerifyExecutionOptions>
+                  </uix:NClick.VerifyOptions>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Promociones'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="a7ef2c87-8584-45c1-88eb-81e0490dbc8d" ContentHash="W22d5VAu_UiK-rtaI5E13A" CvTextArea="813, 368, 85, 14" CvTextArgument="Promociones" CvType="Text" DesignTimeRectangle="775, 353, 336, 45" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Promociones' parentid='navbar' tag='A' /&gt;" Guid="d4ec4371-74ea-45a9-a482-7c36e1640d3a" InformativeScreenshot="b4f378f1071e78a4681fb472e1898046.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/eli_dTjuaEq312Ia1aT_dQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                  <uix:NClick.VerifyOptions>
+                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                      <uix:VerifyExecutionOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionOptions.Retry>
+                      <uix:VerifyExecutionOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionOptions.Timeout>
+                    </uix:VerifyExecutionOptions>
+                  </uix:NClick.VerifyOptions>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Individual'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="4744a6e4-ed30-4cc9-ae92-d0cf258fa9aa" ContentHash="80vOhU4g8UWisPHuR_CSvA" CvElementArea="968, 404, 300, 35" CvTextArea="1067, 414, 95, 12" CvTextArgument="Individual" CvType="Button" DesignTimeRectangle="968, 403, 300, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Individual' parentid='dvRadio' tag='A' /&gt;" Guid="bc1633ec-0585-4b4c-a053-bbb4c92baf60" InformativeScreenshot="b6aec615997fd16e086e236c48a2e372.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/fR1oWzBefEiT3BuW55RxtA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                  <uix:NClick.VerifyOptions>
+                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                      <uix:VerifyExecutionOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionOptions.Retry>
+                      <uix:VerifyExecutionOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionOptions.Timeout>
+                    </uix:VerifyExecutionOptions>
+                  </uix:NClick.VerifyOptions>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NClick>
+                <uix:NSelectItem DisplayName="Selecciona Estado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[in_strEstado]" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NSelectItem.Items>
+                    <scg:List x:TypeArguments="x:String" Capacity="32">
+                      <x:String>Aguascalientes</x:String>
+                      <x:String>Baja California</x:String>
+                      <x:String>Baja California Sur</x:String>
+                      <x:String>Campeche</x:String>
+                      <x:String>Chiapas</x:String>
+                      <x:String>Chihuahua</x:String>
+                      <x:String>Ciudad de México</x:String>
+                      <x:String>Coahuila</x:String>
+                      <x:String>Colima</x:String>
+                      <x:String>Durango</x:String>
+                      <x:String>Estado de México</x:String>
+                      <x:String>Guanajuato</x:String>
+                      <x:String>Guerrero</x:String>
+                      <x:String>Hidalgo</x:String>
+                      <x:String>Jalisco</x:String>
+                      <x:String>Michoacán</x:String>
+                      <x:String>Morelos</x:String>
+                      <x:String>Nayarit</x:String>
+                      <x:String>Nuevo León</x:String>
+                      <x:String>Oaxaca</x:String>
+                      <x:String>Puebla</x:String>
+                      <x:String>Querétaro</x:String>
+                      <x:String>Quintana Roo</x:String>
+                      <x:String>San Luis Potosí</x:String>
+                      <x:String>Sinaloa</x:String>
+                      <x:String>Sonora</x:String>
+                      <x:String>Tabasco</x:String>
+                      <x:String>Tamaulipas</x:String>
+                      <x:String>Tlaxcala</x:String>
+                      <x:String>Veracruz</x:String>
+                      <x:String>Yucatán</x:String>
+                      <x:String>Zacatecas</x:String>
+                    </scg:List>
+                  </uix:NSelectItem.Items>
+                  <uix:NSelectItem.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="792e8002-927f-4509-8b6f-1ee4549c39ed" ContentHash="7NgmQUrVFEKz3YC3QWBrtA" CvElementArea="695, 504, 825, 38" CvType="InputBox" DesignTimeRectangle="698, 506, 825, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='IdEstado_chosen' tag='A' type='' class='chosen-single chosen-default' aaname='Seleccione una opción' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Seleccione una opción' /&gt;" Guid="b69d2edf-fbb8-4d90-88c8-c502b9ceadd5" InformativeScreenshot="294ca3c9c05741fa4f435074707dc2c3.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/uQbuV3wql0yJbQF-_j0Kxg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="792e8002-927f-4509-8b6f-1ee4549c39ed" CvTextArea="621, 516, 47, 13" CvTextArgument="Estado" CvType="Text" DesignTimeRectangle="398, 506, 285, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='FormularioRegistroUsuario' tag='LABEL' type='' class='col-sm-3 control-label' aaname='Estado' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Estado' /&gt;" Guid="160d758e-3d97-4a47-9247-490a419ca142" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NSelectItem.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NSelectItem>
+                <uix:NSelectItem DisplayName="Selecciona Tipo de Organo" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="[in_strTipoOrgano]" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NSelectItem.Items>
+                    <scg:List x:TypeArguments="x:String" Capacity="4">
+                      <x:String>Tribunal Colegiado de Circuito</x:String>
+                      <x:String>Juzgado de Distrito</x:String>
+                      <x:String>Tribunal Colegiado Auxiliar</x:String>
+                      <x:String>Tribunal Colegiado de Apelación</x:String>
+                    </scg:List>
+                  </uix:NSelectItem.Items>
+                  <uix:NSelectItem.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="e258625c-854d-4009-a744-45b6c271648b" ContentHash="jyGrOx7GsEaUuEhmPZWX8Q" CvElementArea="696, 564, 825, 36" CvType="InputBox" DesignTimeRectangle="698, 565, 825, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='IdTipoOrgano_chosen' tag='A' type='' class='chosen-single chosen-default' aaname='Seleccione una opción' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Seleccione una opción' /&gt;" Guid="0f33b998-eb2b-4a08-885f-3c7519156e74" InformativeScreenshot="728801b18defce7e167ee752899f2dfc.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/GXmEDMB6a0uQMI9-fOhgow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="e258625c-854d-4009-a744-45b6c271648b" CvTextArea="564, 573, 104, 18" CvTextArgument="Tipo de Órgano" CvType="Text" DesignTimeRectangle="398, 565, 285, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tipo de Órgano' parentid='FormularioRegistroUsuario' tag='LABEL' type='' class='col-sm-3 control-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Tipo de Órgano' /&gt;" Guid="bec21222-8c11-4485-8534-03c3394be862" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NSelectItem.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NSelectItem>
+                <uix:NSelectItem DisplayName="Selecciona Materia" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="[in_strMateria]" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NSelectItem.Items>
+                    <scg:List x:TypeArguments="x:String" Capacity="17">
+                      <x:String>Tribunal Colegiado de Circuito</x:String>
+                      <x:String>Juzgado de Distrito</x:String>
+                      <x:String>Tribunal Colegiado Auxiliar</x:String>
+                      <x:String>Tribunal Colegiado de Apelación</x:String>
+                      <x:String>Persona física</x:String>
+                      <x:String>Fallas técnicas e incidencias</x:String>
+                      <x:String>Ayuda</x:String>
+                      <x:String>Buzón de sugerencias</x:String>
+                      <x:String>Inicio</x:String>
+                      <x:String>Presenta tu demanda, solicitud o escrito inicial</x:String>
+                      <x:String>Consulta tu Folio</x:String>
+                      <x:String>Promociones y Recursos</x:String>
+                      <x:String>Acuses</x:String>
+                      <x:String xml:space="preserve">Consulta de 
+                                    Expediente Electrónico</x:String>
+                      <x:String>Notificaciones Electrónicas</x:String>
+                      <x:String>Lista de acuerdos</x:String>
+                      <x:String>Consulta de datos públicos de expedientes</x:String>
+                    </scg:List>
+                  </uix:NSelectItem.Items>
+                  <uix:NSelectItem.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="5d058b84-aa9b-4e5b-96f7-1ef7bb33fdb8" ContentHash="QHH-y6ORqky4bjsy2DdVYw" CvElementArea="696, 628, 825, 36" CvType="InputBox" DesignTimeRectangle="698, 629, 825, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='IdMateria_chosen' tag='A' type='' class='chosen-single chosen-default' aaname='Seleccione una opción' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Seleccione una opción' /&gt;" Guid="c980892f-e6d7-4fc8-8f95-3a05f8161823" InformativeScreenshot="389ac7ddd938077bec012a9420d395f0.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/n7H2bVB6RUOmhWfyEEuUMA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="5d058b84-aa9b-4e5b-96f7-1ef7bb33fdb8" CvTextArea="618, 639, 50, 13" CvTextArgument="Materia" CvType="Text" DesignTimeRectangle="398, 629, 285, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Materia' parentid='FormularioRegistroUsuario' tag='LABEL' type='' class='col-sm-3 control-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Materia' /&gt;" Guid="cb2ad2d2-090b-4207-87c3-7d46b396a21d" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NSelectItem.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NSelectItem>
+                <uix:NSelectItem DisplayName="Selecciona Organo" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="[in_strOrgano]" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NSelectItem.Items>
+                    <scg:List x:TypeArguments="x:String" Capacity="12">
+                      <x:String>Juzgado Primero de Distrito en el Estado de Coahuila</x:String>
+                      <x:String>Juzgado Primero de Distrito en La Laguna</x:String>
+                      <x:String>Juzgado Segundo de Distrito en La Laguna</x:String>
+                      <x:String>Juzgado Segundo de Distrito en el Estado de Coahuila</x:String>
+                      <x:String>Juzgado Tercero de Distrito en el Estado de Coahuila</x:String>
+                      <x:String>Juzgado Tercero de Distrito en La Laguna</x:String>
+                      <x:String>Juzgado Cuarto de Distrito en el Estado de Coahuila</x:String>
+                      <x:String>Juzgado Cuarto de Distrito en La Laguna</x:String>
+                      <x:String>Juzgado Quinto de Distrito en La Laguna</x:String>
+                      <x:String>Juzgado Quinto de Distrito en el estado de Coahuila de Zaragoza, con residencia en Saltillo</x:String>
+                      <x:String>Juzgado Sexto de Distrito en La Laguna</x:String>
+                      <x:String>Juzgado Séptimo de Distrito en La Laguna, con residencia en Torreón</x:String>
+                    </scg:List>
+                  </uix:NSelectItem.Items>
+                  <uix:NSelectItem.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="ee28ccb3-d939-410f-86f5-63adac029c9d" ContentHash="TYpOkEqMsUm2sRzgvFgF6A" CvElementArea="696, 687, 825, 36" CvType="InputBox" DesignTimeRectangle="698, 688, 825, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='IdOrgano_chosen' tag='A' type='' class='chosen-single chosen-default' aaname='Seleccione una opción' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Seleccione una opción' /&gt;" Guid="a630a569-662a-48c2-ae36-b3d2c5734ee0" InformativeScreenshot="c494b0fc4a1b8f3eaa490d5e4d20fb8c.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/UGj99x1LAEuYUSkOErJLBA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="ee28ccb3-d939-410f-86f5-63adac029c9d" CvTextArea="617, 696, 51, 18" CvTextArgument="Órgano" CvType="Text" DesignTimeRectangle="398, 688, 285, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Órgano' parentid='FormularioRegistroUsuario' tag='LABEL' type='' class='col-sm-3 control-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Órgano' /&gt;" Guid="d83262a9-7722-41eb-bf2b-67c7b4be5ef4" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NSelectItem.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NSelectItem>
+                <uix:NSelectItem DisplayName="Selecciona Tipo de Asunto" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NSelectItem_5" Item="[in_strTipoAsunto]" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NSelectItem.Items>
+                    <scg:List x:TypeArguments="x:String" Capacity="8">
+                      <x:String>Amparo Indirecto</x:String>
+                      <x:String>Causa Penal</x:String>
+                      <x:String>Comunicaciones Oficiales Enviadas</x:String>
+                      <x:String>Comunicaciones Oficiales Recibidas</x:String>
+                      <x:String>Denuncia por Incumplimiento de la Declaratoria General de Inconstitucionalidad</x:String>
+                      <x:String>Procedimientos de Extradición</x:String>
+                      <x:String>Procesos Civiles o Administrativos</x:String>
+                      <x:String>Varios</x:String>
+                    </scg:List>
+                  </uix:NSelectItem.Items>
+                  <uix:NSelectItem.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="b9aaaf97-91df-4463-b712-f3dabd9dc8f6" ContentHash="QhrcQL1vSk2F_5xSU7eg3w" CvElementArea="689, 750, 825, 37" CvType="InputBox" DesignTimeRectangle="691, 752, 825, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='IdTipoAsunto_chosen' tag='A' type='' class='chosen-single chosen-default' aaname='Seleccione una opción' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Seleccione una opción' /&gt;" Guid="65d6c1fb-30a7-4912-94c3-045def4937ab" InformativeScreenshot="207485949ac1960df723e29ea1aa52d0.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/kAXDLNrE-EOCpjoYZqDe-A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="b9aaaf97-91df-4463-b712-f3dabd9dc8f6" CvTextArea="558, 762, 103, 16" CvTextArgument="Tipo de Asunto" CvType="Text" DesignTimeRectangle="391, 752, 285, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='TipoAsuntoDiv' tag='LABEL' type='' class='col-sm-3 control-label' aaname='Tipo de Asunto' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tipo de Asunto' /&gt;" Guid="31dea098-b9aa-4ccc-9201-16186647f6e7" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NSelectItem.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NSelectItem>
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Expediente'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Text="[in_strExpediente]" Version="V5">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="eb1f3590-7ac2-4d24-a039-d519043d785c" ContentHash="-p0YKpqnjUiKSgjrqru4eQ" CvElementArea="688, 815, 827, 36" CvType="InputBox" DesignTimeRectangle="691, 816, 825, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='NumeroExpedente' tag='INPUT' type='text' class='form-control' aaname='Expediente' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3bcddd1a-4e6a-4334-9b96-4178d203a473" InformativeScreenshot="5f38b545a52c6a8437a99bfba749700f.png" IsResponsive="True" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/pOfi56VjjEyDlQIPcyAAnA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="eb1f3590-7ac2-4d24-a039-d519043d785c" CvTextArea="585, 826, 76, 16" CvTextArgument="Expediente" CvType="Text" DesignTimeRectangle="391, 816, 285, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ExpedienteDiv' tag='LABEL' type='' class='col-sm-3 control-label' aaname='Expediente' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Expediente' /&gt;" Guid="f36dacdd-a85d-4d44-8a8a-660d7e8d8644" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                  <uix:NTypeInto.VerifyOptions>
+                    <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                      <uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    </uix:VerifyExecutionTypeIntoOptions>
+                  </uix:NTypeInto.VerifyOptions>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NTypeInto>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Agregar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="e109fcee-9f99-48b6-b2af-590f49dc8577" ContentHash="4LHag0Vcs0aA6cIVwvXJiw" CvElementArea="934, 873, 67, 33" CvTextArea="945, 882, 45, 14" CvTextArgument="Agregar" CvType="Button" DesignTimeRectangle="936, 875, 64, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnBuscar' tag='INPUT' /&gt;" Guid="8a895b1d-3c69-4e2a-bf60-c26d192037a1" InformativeScreenshot="2399e6cf59d5a406fb8bae06c20666a8.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/uZZAnnrOa0qjUVfdrcKI1g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                  <uix:NClick.VerifyOptions>
+                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                      <uix:VerifyExecutionOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionOptions.Retry>
+                      <uix:VerifyExecutionOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionOptions.Timeout>
+                    </uix:VerifyExecutionOptions>
+                  </uix:NClick.VerifyOptions>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NClick>
+                <uix:NCheckState DisplayName="Check App State 'Para continuar debe pro…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,2456" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,2162" sap2010:WorkflowViewState.IdRef="Sequence_52">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'KEY - CER'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="a10c8518-5a25-4811-bda5-c212dd68e256" ContentHash="uaQuwnARsE6ZN1_hk__B1Q" CvTextArea="1073, 257, 61, 12" CvTextArgument="KEY - CER" CvType="Text" DesignTimeRectangle="963, 250, 282, 29" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='aKeyCer' parentid='tabsFirmaModal' tag='A' /&gt;" Guid="7883a758-222a-42ae-af37-5fe04e093542" InformativeScreenshot="aaf1ce4898cc5d684d9ba40a0a72b8e4.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/xrfSRZcg9UWnA2jTwkkLMg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="3" DisplayName="Click Certificado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="d8b24aa3-44c5-40ce-82db-ad642f617d34" ContentHash="dhJ4gdEfGUi9_6WgcmhlwQ" CvTextArea="906, 529, 107, 12" CvTextArgument="Seleccionar archivo" CvType="Text" DesignTimeRectangle="677, 525, 567, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='fileFiel' tag='INPUT' /&gt;" Guid="b1ece476-21e8-4f42-a577-1a064583ce8c" InformativeScreenshot="a965f1dffbf3f157a891ff6f5447d859.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/DLNwAt49s0y7buN_lefkOA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="416,96" sap2010:WorkflowViewState.IdRef="SetToClipboard_1" Text="C:\AFA\certificados\sams9202247w3.cer" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayAfter="2" DelayBefore="1" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V5" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayAfter="2" DelayBefore="1" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="2" DisplayName="Llave" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="cd139965-f840-4cc8-8cd0-6323b75426da" ContentHash="GnAssZtjtEqx2yiZeHRnMg" CvElementArea="675, 632, 568, 26" CvTextArea="906, 638, 107, 12" CvTextArgument="Seleccionar archivo" CvType="Button" DesignTimeRectangle="677, 634, 567, 23" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='fileFielKey' tag='INPUT' /&gt;" Guid="0ec9a4dd-8285-40b7-8bdd-d1764ec09555" InformativeScreenshot="9c953ec1f58474b679686d3254e0fa5e.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/uctzIAwpF0ewhPjSPxtkxw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="416,96" sap2010:WorkflowViewState.IdRef="SetToClipboard_2" Text="C:\AFA\certificados\Claveprivada_FIEL_SAMS9202247W3_20240319_095504.key" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayAfter="2" DelayBefore="2" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V5" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayAfter="2" DelayBefore="2" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5" />
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DelayBefore="2" DisplayName="Type Into 'Contraseña'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,259" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" IsPassword="True" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Text="sams9202" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="2a2b5623-ebc5-453a-8b1a-6ea1268d1879" ContentHash="oJB6cSEGWUOt-s_RMctMZA" CvElementArea="676, 726, 570, 36" CvType="InputBox" DesignTimeRectangle="677, 727, 568, 34" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='passwordFiel' tag='INPUT' type='password' class='form-control' placeholder='Ingrese Contraseña' aaname='Contraseña' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="155508ad-b992-47db-8d5f-b2033002a866" InformativeScreenshot="2d96b6ec4d98493f132d73aaeacc0020.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/XJLKNCa8Q0-Niutfgwze_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="2a2b5623-ebc5-453a-8b1a-6ea1268d1879" CvTextArea="676, 688, 94, 15" CvTextArgument="* Contraseña:" CvType="Text" DesignTimeRectangle="677, 687, 568, 20" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; Contraseña: &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' parentid='tabKeyCer' tag='DIV' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Contraseña:' /&gt;" Guid="577a263a-a229-4a33-bc3b-b6c6634ffb02" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Ingresar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="4d16126b-5b25-4131-9719-38dfc48ee379" ContentHash="iDDPaDJiXUm7VNd7wWjIxA" CvElementArea="963, 811, 103, 32" CvTextArea="991, 819, 47, 14" CvTextArgument="Ingresar" CvType="Button" DesignTimeRectangle="965, 812, 100, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnIngresar' tag='BUTTON' /&gt;" Guid="782f475c-17c7-4090-bab2-e478091b3127" InformativeScreenshot="a5dad7e12df6ae128c7d685d96ead3bc.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/tn_hNXYRbkmy1MfGNNRXMQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_53">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="f7a8fcd1-aeb5-4621-b4d1-d7bb3da1a5ca" ContentHash="6RNFw0CNi0O1Do2_qcOyaA" CvTextArea="725, 196, 470, 20" CvTextArgument="Para continuar debe proporcionar su certificado digital" CvType="Text" DesignTimeRectangle="662, 178, 598, 57" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='modal-header' parentid='certificadoDigitalModal' tag='DIV' /&gt;" Guid="fc32b8f2-5e9b-4371-bf79-6b16a61c40f8" InformativeScreenshot="55c81ffa136f324a52f597ba023dc425.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/QvDe3_xork2U1RnINYfaCA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NCheckState.Target>
+                </uix:NCheckState>
+                <uix:NCheckState DisplayName="Envio de promociones" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,4412" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                  <uix:NCheckState.IfExists>
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,4118" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="1" DisplayName="Click 'Ingresar Documentos'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="67840698-a62d-40af-89a1-b76d6177308c" ContentHash="d_mh2j6eP0WtO8kwMtcbBQ" CvTextArea="421, 284, 172, 20" CvTextArgument="Ingresar Documentos" CvType="Text" DesignTimeRectangle="422, 283, 171, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='                             Ingresar Documentos                         ' parentid='accordionPresentarPromocion' tag='A' /&gt;" Guid="3cead495-2122-4348-ab18-1d3e7b215e6a" InformativeScreenshot="9a3a6e8bf559107833662549cf3e5c63.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/0SBPl-0xQUuoUgcEhU6eqQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Seleccione uno o varios…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="67840698-a62d-40af-89a1-b76d6177308c" ContentHash="5QsaFf85qkqT0NazW6Cw9A" CvElementArea="458, 512, 203, 33" CvTextArea="472, 522, 176, 12" CvTextArgument="Seleccione uno O varios archivos" CvType="Button" DesignTimeRectangle="461, 514, 199, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='                                                                                          Seleccione uno o varios archivos                                         ' parentid='fileToolBar' tag='LABEL' /&gt;" Guid="57893b99-3bea-4904-bae3-473b62e94dd1" InformativeScreenshot="4a1c501feb0efd5dacd2717179f33d4c.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/wzpqdRd-tkKq7mA5Oa8GPg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="67840698-a62d-40af-89a1-b76d6177308c" CvTextArea="421, 492, 171, 13" CvTextArgument="Seleccionar documentos:" CvType="Text" DesignTimeRectangle="422, 489, 170, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='fileToolBar' tag='LABEL' type='' class='' aaname='Seleccionar documentos:' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Seleccionar documentos:' /&gt;" Guid="3b248c29-8871-4040-b49e-73a8dbfe8906" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="416,96" sap2010:WorkflowViewState.IdRef="SetToClipboard_3" Text="[in_strDocumento]" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayAfter="2" DelayBefore="2" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V5" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayAfter="2" DelayBefore="2" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5" />
+                      <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NMouseScroll.SearchedElement>
+                          <uix:SearchedElement>
+                            <uix:SearchedElement.OutUiElement>
+                              <OutArgument x:TypeArguments="ui:UiElement" />
+                            </uix:SearchedElement.OutUiElement>
+                            <uix:SearchedElement.Target>
+                              <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="abcb8f92-a778-4de5-938d-3d6d82cf7f7d" ContentHash="zdIN48DXKkO1K5wU2kO8cA" CvType="AnyWordGroup" DesignTimeRectangle="825, 898, 301, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='PanelFirma' tag='LABEL' /&gt;" Guid="5916cf5f-b781-4236-9589-1b50f4b44d3a" InformativeScreenshot="87656d2555ca959c71bf9b7e73cd7d8d.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/msNpGSoMikSwcvCaZv2clQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:SearchedElement.Target>
+                            <uix:SearchedElement.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:SearchedElement.Timeout>
+                          </uix:SearchedElement>
+                        </uix:NMouseScroll.SearchedElement>
+                      </uix:NMouseScroll>
+                      <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,127" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Certificado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_21" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="bde4b51b-daa0-4160-a159-6ca8e3bd3d79" ContentHash="A4hpEi--Vk2iIct8DTCjcA" CvTextArea="1081, 597, 72, 13" CvTextArgument="KEY - CER" CvType="Text" DesignTimeRectangle="974, 583, 286, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='aKeyCer' tag='A' /&gt;" Guid="d322bb7a-74b3-462a-b54e-95181c654acf" InformativeScreenshot="36e440c4cd6478fccdf93291231de94b.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/Kv4jyIRuY029GN1uDISNIw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="1" DisplayName="Click 'INPUT Certificados'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="87e6b46a-dce1-4e15-842e-51c090a996fd" ContentHash="xXc0BNc8dEO76_EuGuBwsQ" CvTextArea="921, 684, 107, 12" CvTextArgument="Seleccionar archivo" CvType="Text" DesignTimeRectangle="692, 680, 567, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='Certificados' tag='INPUT' /&gt;" Guid="b7359d3e-f168-47d1-a275-81679ee71524" InformativeScreenshot="456ddc967b375f17d8deba8d772fbcf1.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/vrL8tzTqjk2-hbkm2682JA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="416,96" sap2010:WorkflowViewState.IdRef="SetToClipboard_4" Text="C:\AFA\certificados\sams9202247w3.cer" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayAfter="2" DelayBefore="1" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V5" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayAfter="2" DelayBefore="1" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'LLave privada (.key)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_22" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="87e6b46a-dce1-4e15-842e-51c090a996fd" ContentHash="j-UOJOUWw0irQ3QKxT3wDA" CvTextArea="709, 743, 262, 12" CvTextArgument="Seleccionar archivo Sin archivos seleccionados" CvType="Text" DesignTimeRectangle="692, 734, 568, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='CertificadosKey' tag='INPUT' type='file' class='form-control btn btn-default btn-sm CertificadosKey' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="488fadeb-48ef-48d3-bd99-9e782fbd829f" InformativeScreenshot="0edf606cab2a50adf04e93619fb5fbf8.png" IsResponsive="True" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/oYTDrqX7YEiveOg-8j7Nxg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="87e6b46a-dce1-4e15-842e-51c090a996fd" CvTextArea="710, 717, 126, 16" CvTextArgument="LLave privada (.key):" CvType="Text" DesignTimeRectangle="706, 716, 130, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='LLave privada (.key): ' parentid='tabFirma' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='LLave privada (.key):' /&gt;" Guid="aa3c9e8a-516e-4011-8173-72621096dee0" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="416,96" sap2010:WorkflowViewState.IdRef="SetToClipboard_5" Text="C:\AFA\certificados\Claveprivada_FIEL_SAMS9202247W3_20240319_095504.key" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayAfter="2" DelayBefore="2" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_9" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V5" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayAfter="2" DelayBefore="2" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_10" InteractionMode="HardwareEvents" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V5" />
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="2" DelayBefore="1" DisplayName="Type Into 'Contraseña'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,259" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" IsPassword="True" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Text="sams9202" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="87e6b46a-dce1-4e15-842e-51c090a996fd" ContentHash="Hxnw8VoF00ajOc3BoCtnPQ" CvElementArea="693, 808, 567, 35" CvType="InputBox" DesignTimeRectangle="692, 809, 568, 34" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='Contrasenias' tag='INPUT' type='password' class='form-control btn-sm Contrasenias' placeholder='Contraseña' aaname='Contraseña Certificado' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="237eee02-aceb-45d1-bcb2-0e8f9038996b" InformativeScreenshot="16ce0d2b18645cf090c06335cd165c7d.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/jWvyQ9NVbk-A-AKcMWLxwA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="87e6b46a-dce1-4e15-842e-51c090a996fd" CvTextArea="709, 790, 73, 15" CvTextArgument="*Contraseña:" CvType="Text" DesignTimeRectangle="706, 791, 76, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Contraseña: ' parentid='tabFirma' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Contraseña:' /&gt;" Guid="4334efde-ed3b-4ac5-8464-8aee4310564d" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="1" DisplayName="Click 'Confirmar firma'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_24" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="87e6b46a-dce1-4e15-842e-51c090a996fd" ContentHash="wohi8rGg3kG8DoDOt-jpdQ" CvElementArea="921, 862, 110, 33" CvTextArea="933, 871, 84, 12" CvTextArgument="Confirmar firma" CvType="Button" DesignTimeRectangle="922, 863, 108, 31" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='confirmFirma' tag='BUTTON' /&gt;" Guid="1226dfc3-168d-4661-9712-43f4564630b6" InformativeScreenshot="faec62528b7afb13da2df68c22124966.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/leQrNwzIBkmX0eVhcFb86A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <uix:NMouseScroll KeyModifiers="{x:Null}" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NMouseScroll.SearchedElement>
+                          <uix:SearchedElement>
+                            <uix:SearchedElement.OutUiElement>
+                              <OutArgument x:TypeArguments="ui:UiElement" />
+                            </uix:SearchedElement.OutUiElement>
+                            <uix:SearchedElement.Target>
+                              <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="73038144-d1f8-4044-8083-0b2c42bcc40c" ContentHash="93F_W9UBJUSlQdLxfhuA1Q" CvElementArea="551, 888, 18, 18" CvType="CheckBox" DesignTimeRectangle="554, 886, 843, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='LABEL' /&gt;" Guid="720b6fea-ffda-4a72-8801-0049f4197697" InformativeScreenshot="e3cddeb70bf1833369b929576a944d7a.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/VLz2AZhyeUydmjZsYUYgHQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:SearchedElement.Target>
+                            <uix:SearchedElement.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:SearchedElement.Timeout>
+                          </uix:SearchedElement>
+                        </uix:NMouseScroll.SearchedElement>
+                      </uix:NMouseScroll>
+                      <uix:NCheck Action="Check" DelayBefore="1" DisplayName="Check/Uncheck 'Checkbox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,201" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NCheck.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="87e6b46a-dce1-4e15-842e-51c090a996fd" ContentHash="BaWaraY-T0GQEtzhfoDF4A" CvElementArea="552, 942, 17, 16" CvType="CheckBox" DesignTimeRectangle="554, 944, 13, 13" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='chkAviso' type='checkbox' tag='INPUT' class='' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="1f2126ca-e3e0-4ef2-a74b-707ed09870aa" InformativeScreenshot="696eece92b097840f01151f2a1b63930.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/Na9RcucjQE2kpQI4COxETw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CVScreenId="87e6b46a-dce1-4e15-842e-51c090a996fd" CvElementArea="552, 942, 17, 16" CvTextArea="570, 945, 828, 13" CvTextArgument="He leído el Aviso de Privacidad y otorgo mi consentimiento para que los datos personales sean tratados conforme al mismo" CvType="CheckBox" DesignTimeRectangle="554, 940, 843, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='' aaname=' He leído el  y otorgo mi consentimiento para que los datos personales sean tratados conforme al mismo' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='He leído el Aviso de Privacidad y otorgo mi consentimiento para que los datos personales sean tratados conforme al mismo' /&gt;" Guid="7803136a-81d9-4002-8838-f03ca1a55df4" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NCheck.Target>
+                      </uix:NCheck>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Enviar Promociones'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_25" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="73038144-d1f8-4044-8083-0b2c42bcc40c" ContentHash="ifemSQk9zU28u_bLHrPzMg" CvElementArea="902, 951, 147, 33" CvType="Button" DesignTimeRectangle="904, 953, 143, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnPresentarPromociones' tag='BUTTON' /&gt;" Guid="8c8ec866-5757-4af7-b0d4-bed1c6392c79" InformativeScreenshot="6c7ef1076c0918c8d7fc589da6b9b552.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/sRzKhGlB9Uyt-6Gg0MmRjQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                    </Sequence>
+                  </uix:NCheckState.IfExists>
+                  <uix:NCheckState.IfNotExists>
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_55">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </uix:NCheckState.IfNotExists>
+                  <uix:NCheckState.Target>
+                    <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" ContentHash="2tk1MvIIzE6OpnONeLGWhQ" DesignTimeRectangle="391, 347, 1170, 928" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='AjaxContainer' tag='DIV' /&gt;" Guid="3c99693f-412a-45ce-b952-811bb6eaeb96" InformativeScreenshot="787df295e3d27d3853f1bbc3ab93b4bc.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/1TCgB1uC5Eu-Sv57obpF7A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NCheckState.Target>
+                </uix:NCheckState>
+                <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="452,120" sap2010:WorkflowViewState.IdRef="Delay_5" />
+              </Sequence>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="1912, -8, 1936, 1056" BrowserType="Chrome" ContentHash="DStxz2Izq0i9nPqxajzRzg" IconBase64="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" InformativeScreenshot="6e7ff5efe9e8fba11bd095a0b8ffd6ea.jpg" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/34iixG0qpkyk1DmZMT_7Zw" Selector="&lt;html app='chrome.exe' title='Portal de Servicios en Línea del Poder Judicial de la Federación - Consejo de la Judicatura Federal' /&gt;" Url="https://www.serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/Login" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

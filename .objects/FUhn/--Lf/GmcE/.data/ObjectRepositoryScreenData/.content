@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="TPLqJ0zaDUS67zlLseWqZA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" Url="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

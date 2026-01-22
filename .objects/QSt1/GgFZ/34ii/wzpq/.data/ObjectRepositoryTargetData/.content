@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5QsaFf85qkqT0NazW6Cw9A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="67840698-a62d-40af-89a1-b76d6177308c" CvElementArea="458, 512, 203, 33" CvTextArea="472, 522, 176, 12" CvTextArgument="Seleccione uno O varios archivos" CvType="Button" DesignTimeRectangle="461, 514, 199, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='                                                                                          Seleccione uno o varios archivos                                         ' parentid='fileToolBar' tag='LABEL' /&gt;" Guid="57893b99-3bea-4904-bae3-473b62e94dd1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="67840698-a62d-40af-89a1-b76d6177308c" CvTextArea="421, 492, 171, 13" CvTextArgument="Seleccionar documentos:" CvType="Text" DesignTimeRectangle="422, 489, 170, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='fileToolBar' tag='LABEL' type='' class='' aaname='Seleccionar documentos:' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Seleccionar documentos:' /&gt;" Guid="3b248c29-8871-4040-b49e-73a8dbfe8906" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4a1c501feb0efd5dacd2717179f33d4c.png" xmlns="">0LPRfodyKv0OH0jNwqPHzsQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

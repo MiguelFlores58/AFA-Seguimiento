@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6RNFw0CNi0O1Do2_qcOyaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="f7a8fcd1-aeb5-4621-b4d1-d7bb3da1a5ca" CvTextArea="725, 196, 470, 20" CvTextArgument="Para continuar debe proporcionar su certificado digital" CvType="Text" DesignTimeRectangle="662, 178, 598, 57" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='modal-header' parentid='certificadoDigitalModal' tag='DIV' /&gt;" Guid="fc32b8f2-5e9b-4371-bf79-6b16a61c40f8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="55c81ffa136f324a52f597ba023dc425.png" xmlns="">0ITFxZLmyxke-Qd3pHVtfAA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

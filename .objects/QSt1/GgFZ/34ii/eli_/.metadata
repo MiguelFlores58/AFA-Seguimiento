@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Promociones",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "eli_dTjuaEq312Ia1aT_dQ",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/eli_dTjuaEq312Ia1aT_dQ",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/34iixG0qpkyk1DmZMT_7Zw",
+  "Created": "2026-01-21T16:19:06.283195Z",
+  "Updated": "2026-01-21T16:19:06.283195Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

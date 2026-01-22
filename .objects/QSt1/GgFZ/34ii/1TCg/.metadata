@@ -1,0 +1,13 @@
+﻿{
+  "Name": "ENVÍO DE PROMOCIONES A …",
+  "Type": "Element",
+  "Id": "1TCgB1uC5Eu-Sv57obpF7A",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/1TCgB1uC5Eu-Sv57obpF7A",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/34iixG0qpkyk1DmZMT_7Zw",
+  "Created": "2026-01-21T18:54:06.0087873Z",
+  "Updated": "2026-01-21T18:54:06.0087873Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
