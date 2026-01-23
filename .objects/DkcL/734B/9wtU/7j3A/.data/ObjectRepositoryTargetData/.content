@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="5JDFrtP2-0eux_eieAEZ8A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="MoCXr-JAMkW7_2OLl_VWTQ" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/7j3AuijjUUettm6d620bpQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" CVScreenId="1a983d93-e187-4a8b-9899-6864bd4da48c" CvType="AnyWordGroup" DesignTimeRectangle="962, 825, 853, 21" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='3' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tableRow='10' tag='TD' /&gt;" Guid="9d27e157-3116-4fd0-a727-767d0ef348ce" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='form2' title='SISE' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Expediente/VerCaptura.aspx" CVScreenId="22de0b35-eeed-48a3-ab31-6adc726f7b4a" CvType="AnyWordGroup" DesignTimeRectangle="962, 840, 52, 12" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="dfcf8512-f89d-4b46-a63f-d03d68edc66a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SISE' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="1a983d93-e187-4a8b-9899-6864bd4da48c" CvTextArea="107, 828, 81, 14" CvTextArgument="Número origen" CvType="Text" DesignTimeRectangle="106, 825, 854, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='TableCell' aaname='Número origen' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Número origen' /&gt;" Guid="4d8821e7-b452-4597-9807-e086f2d15aab" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="22de0b35-eeed-48a3-ab31-6adc726f7b4a" CvTextArea="107, 840, 81, 14" CvTextArgument="Número origen" CvType="Text" DesignTimeRectangle="106, 837, 854, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='TableCell' aaname='Número origen' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Número origen' /&gt;" Guid="7c0a6971-10d1-4d2a-95da-7f372df76ba7" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="820d93f996d01f82a1c5cddbc6d33ec2.png" xmlns="">0JtSKzD2D30GDKPv2OvzGCA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="66ba35a68b8838c0c872bb35cababfba.png" xmlns="">0aHaWuZcs50OxYhaR4f91qA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">GetText</x:String>
   </ObjectRepositoryTargetData.Data>
