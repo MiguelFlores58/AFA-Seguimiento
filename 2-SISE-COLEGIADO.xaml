@@ -146,7 +146,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="SISE" sap:VirtualizedContainerService.HintSize="1188,31599" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="SISE" sap:VirtualizedContainerService.HintSize="1296,31630" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtSintesis" />
       <Variable x:TypeArguments="x:String" Name="strFechaSesion" />
@@ -304,7 +304,7 @@
       </TryCatch>
       <ui:BuildDataTable DataTable="[dtPromociones]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="616,83" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Estado&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;TipoOrgano&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Materia&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Organo&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;TipoAsunto&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Expediente&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Documento&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
     </Sequence>
-    <Sequence DisplayName="Performer" sap:VirtualizedContainerService.HintSize="872,26549" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Performer" sap:VirtualizedContainerService.HintSize="872,26580" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="boolHayFechaSesion" />
       </Sequence.Variables>
@@ -314,13 +314,13 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="SISE" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="838,26457" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="SISE" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="838,26488" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="ccf470c0-a4e2-45fb-91d6-068023fdcc36" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="804,26212" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="804,26243" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -607,19 +607,19 @@
                 </ui:Click>
               </Sequence>
               <Delay Duration="00:00:04" sap:VirtualizedContainerService.HintSize="770,127" sap2010:WorkflowViewState.IdRef="Delay_2" />
-              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtColegiado]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="770,21685" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtColegiado]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="770,21716" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="768,21506" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="768,21537" sap2010:WorkflowViewState.IdRef="Sequence_43">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="Encontrar Resumen" sap:VirtualizedContainerService.HintSize="734,21442" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <Sequence DisplayName="Encontrar Resumen" sap:VirtualizedContainerService.HintSize="734,21473" sap2010:WorkflowViewState.IdRef="Sequence_7">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:String" Name="strNombre" />
                           <Variable x:TypeArguments="x:String" Name="strPaterno" />
@@ -634,7 +634,7 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="700,127" sap2010:WorkflowViewState.IdRef="Delay_11" />
-                        <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="700,277" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+                        <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="700,308" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
                           <ui:MultipleAssign.AssignOperations>
                             <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
                               <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -675,6 +675,14 @@
                                 </ui:AssignOperation.To>
                                 <ui:AssignOperation.Value>
                                   <InArgument x:TypeArguments="x:String">[CurrentRow("Num.Origen").ToString.Trim]</InArgument>
+                                </ui:AssignOperation.Value>
+                              </ui:AssignOperation>
+                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+                                <ui:AssignOperation.To>
+                                  <OutArgument x:TypeArguments="x:String">[strTribunal]</OutArgument>
+                                </ui:AssignOperation.To>
+                                <ui:AssignOperation.Value>
+                                  <InArgument x:TypeArguments="x:String">[CurrentRow("Juzgado").ToString.Trim]</InArgument>
                                 </ui:AssignOperation.Value>
                               </ui:AssignOperation>
                             </scg:List>
@@ -2198,7 +2206,7 @@
                                                                     <InArgument x:TypeArguments="x:String" x:Key="strFechaLetra">[strFechaHoy]</InArgument>
                                                                     <InArgument x:TypeArguments="x:String" x:Key="strNumJuzgado">[strTribunal]</InArgument>
                                                                     <InArgument x:TypeArguments="x:String" x:Key="strExpediente">[strExpColegiado]</InArgument>
-                                                                    <InArgument x:TypeArguments="x:String" x:Key="strNombre">[strNombre]</InArgument>
+                                                                    <InArgument x:TypeArguments="x:String" x:Key="strNombre">[strNombre &amp; " " &amp; strPaterno &amp; " " &amp; strMaterno]</InArgument>
                                                                   </ui:InvokeWorkflowFile.Arguments>
                                                                 </ui:InvokeWorkflowFile>
                                                                 <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{ CurrentRow(&quot;Entidad&quot;).ToString, &quot;Juzgado de Distrito&quot;, &quot;Mixta&quot;, CurrentRow(&quot;Juzgado&quot;),&quot;Amparo Indirecto&quot;, strExpediente,strArchivoGenerado}]" DataTable="[dtPromociones]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
@@ -2355,7 +2363,7 @@
                                                                     <InArgument x:TypeArguments="x:String" x:Key="strFechaLetra">[strFechaHoy]</InArgument>
                                                                     <InArgument x:TypeArguments="x:String" x:Key="strNumJuzgado">[strTribunal]</InArgument>
                                                                     <InArgument x:TypeArguments="x:String" x:Key="strExpediente">[strExpColegiado]</InArgument>
-                                                                    <InArgument x:TypeArguments="x:String" x:Key="strNombre">[strNombre]</InArgument>
+                                                                    <InArgument x:TypeArguments="x:String" x:Key="strNombre">[strNombre &amp; " " &amp; strPaterno &amp; " " &amp; strMaterno]</InArgument>
                                                                   </ui:InvokeWorkflowFile.Arguments>
                                                                 </ui:InvokeWorkflowFile>
                                                                 <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{ CurrentRow(&quot;Entidad&quot;).ToString, &quot;Juzgado de Distrito&quot;, &quot;Mixta&quot;, CurrentRow(&quot;Juzgado&quot;),&quot;Amparo Indirecto&quot;, strExpediente,strArchivoGenerado}]" DataTable="[dtPromociones]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
@@ -2512,7 +2520,7 @@
                                                                     <InArgument x:TypeArguments="x:String" x:Key="strFechaLetra">[strFechaHoy]</InArgument>
                                                                     <InArgument x:TypeArguments="x:String" x:Key="strNumJuzgado">[strTribunal]</InArgument>
                                                                     <InArgument x:TypeArguments="x:String" x:Key="strExpediente">[strExpColegiado]</InArgument>
-                                                                    <InArgument x:TypeArguments="x:String" x:Key="strNombre">[strNombre]</InArgument>
+                                                                    <InArgument x:TypeArguments="x:String" x:Key="strNombre">[strNombre &amp; " " &amp; strPaterno &amp; " " &amp; strMaterno]</InArgument>
                                                                   </ui:InvokeWorkflowFile.Arguments>
                                                                 </ui:InvokeWorkflowFile>
                                                                 <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{ CurrentRow(&quot;Entidad&quot;).ToString, &quot;Juzgado de Distrito&quot;, &quot;Mixta&quot;, CurrentRow(&quot;Juzgado&quot;),&quot;Amparo Indirecto&quot;, strExpediente,strArchivoGen}]" DataTable="[dtPromociones]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="AddDataRow_3" />
@@ -2698,7 +2706,7 @@
                                                               <InArgument x:TypeArguments="x:String" x:Key="strFechaLetra">[strFechaHoy]</InArgument>
                                                               <InArgument x:TypeArguments="x:String" x:Key="strNumJuzgado">[strTribunal]</InArgument>
                                                               <InArgument x:TypeArguments="x:String" x:Key="strExpediente">[strExpColegiado]</InArgument>
-                                                              <InArgument x:TypeArguments="x:String" x:Key="strNombre">[strNombre]</InArgument>
+                                                              <InArgument x:TypeArguments="x:String" x:Key="strNombre">[strNombre &amp; " " &amp; strPaterno &amp; " " &amp; strMaterno]</InArgument>
                                                             </ui:InvokeWorkflowFile.Arguments>
                                                           </ui:InvokeWorkflowFile>
                                                           <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{ CurrentRow(&quot;Entidad&quot;).ToString, &quot;Juzgado de Distrito&quot;, &quot;Mixta&quot;, CurrentRow(&quot;Juzgado&quot;),&quot;Amparo Indirecto&quot;, strExpediente,strArchivoGenerado}]" DataTable="[dtPromociones]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="AddDataRow_4" />
