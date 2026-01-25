@@ -148,7 +148,7 @@
                 <OutArgument x:TypeArguments="x:String">[strPathCopia]</OutArgument>
               </ui:AssignOperation.To>
               <ui:AssignOperation.Value>
-                <InArgument x:TypeArguments="x:String" xml:space="preserve">["C:\AFA\" &amp; strPlantilla.Split(" ")(0) &amp; "" &amp; Now.ToString("yyyyMMdd_HHmmss") &amp;  strNumJuzgado &amp; strExpediente.Replace("/", "")  &amp; ".docx"]</InArgument>
+                <InArgument x:TypeArguments="x:String" xml:space="preserve">["C:\AFA\" &amp; strPlantilla.Split(" ")(0) &amp; "" &amp; Now.ToString("yyyyMMddHHmmss") &amp;  strNumJuzgado &amp; strExpediente.Replace("/", "")  &amp; ".docx"]</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
