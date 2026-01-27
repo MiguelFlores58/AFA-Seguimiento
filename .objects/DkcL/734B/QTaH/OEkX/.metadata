@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Amparo Indirecto (3)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "OEkXTB-jdk6782O9md_pWw",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/OEkXTB-jdk6782O9md_pWw",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/QTaHpcHExEWFX-UggRHS2w",
+  "Created": "2026-01-27T21:37:44.5550708Z",
+  "Updated": "2026-01-27T21:37:44.5550708Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
