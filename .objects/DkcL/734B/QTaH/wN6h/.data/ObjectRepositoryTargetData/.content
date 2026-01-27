@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4sz78qP92Eej8nFq866e4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="807ad42b-9f3c-429c-947d-74746ace1b77" CvElementArea="11, 736, 1907, 31" CvType="InputBox" DesignTimeRectangle="17, 737, 1902, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='h11' tableRow='7' tag='H4' /&gt;" Guid="e3124e7a-becb-40f3-9438-fafef842ea25" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='3e1c80cd-0fb5-182f-73d7-124dbe691318' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b1188bf73c2c8fb3ce81401ab0812440.png" xmlns="">0sQv6a0iGp0ObuLlWkcRp6Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

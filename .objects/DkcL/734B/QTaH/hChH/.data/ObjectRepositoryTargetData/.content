@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZCnNtc9q5UKp6VfhAhxSUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" DesignTimeRectangle="737, 86, 462, 160" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='sise.cjf.gob.mx dice' role='dialog' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" Guid="1b21b780-ee7a-4418-8585-ec75552c10ac" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='S I S E - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="33b2d06e9fa59dc5067697caf8115ebd.png" xmlns="">0kmZUHaSdXkOlbMhcHZcOVQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

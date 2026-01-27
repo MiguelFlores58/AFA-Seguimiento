@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Amparo en revisión (2)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "wN6hwS_Jb0u0i8UT1_dlYw",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/wN6hwS_Jb0u0i8UT1_dlYw",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/QTaHpcHExEWFX-UggRHS2w",
+  "Created": "2026-01-27T22:58:31.3772216Z",
+  "Updated": "2026-01-27T22:58:31.3772216Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
