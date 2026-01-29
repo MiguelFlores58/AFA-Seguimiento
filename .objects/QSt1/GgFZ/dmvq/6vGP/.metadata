@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Persona Física",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "6vGPh6BGRUmawNJLkmfa8g",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/6vGPh6BGRUmawNJLkmfa8g",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/dmvqXreMrkOaNN3iqIzNYw",
+  "Created": "2026-01-29T00:31:28.0091557Z",
+  "Updated": "2026-01-29T00:31:28.0091557Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

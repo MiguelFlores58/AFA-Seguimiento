@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ITdFsDUUn0eaXwH1Xmjvzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="288dc976-5faf-4224-b2f7-31c3e360372d" CvElementArea="783, 557, 169, 32" CvType="InputBox" DesignTimeRectangle="785, 559, 164, 29" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='divPersonaFiltro' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='text' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="5525bfaa-9705-4b3a-829f-c4bc13d03e60" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='24cfde00-09ca-691f-3374-002f90d302e9' title='S I S E' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="288dc976-5faf-4224-b2f7-31c3e360372d" CvTextArea="684, 565, 97, 13" CvTextArgument="Denominación" CvType="Text" DesignTimeRectangle="685, 565, 96, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='divPersonaFiltro' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='Etiqueta' aaname='Denominación' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Denominación' /&gt;" Guid="d9206608-41a8-41e1-a416-e30c6f0c3cc9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="660a0dee0d88cd3b8152680e19561097.png" xmlns="">0VPWQIlYDfU6_Cq8O_A1AAg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

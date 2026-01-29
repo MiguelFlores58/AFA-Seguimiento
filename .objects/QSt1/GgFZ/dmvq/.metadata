@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Portal de Servicios en Línea del Poder(4)",
+  "Type": "Screen",
+  "Id": "dmvqXreMrkOaNN3iqIzNYw",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/dmvqXreMrkOaNN3iqIzNYw",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/GgFZ7gz46kuPVnxCGA1iDA",
+  "Created": "2026-01-29T00:31:27.4871649Z",
+  "Updated": "2026-01-29T00:31:27.4871649Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

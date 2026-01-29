@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Tipo de Persona",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "BGNpU9Mcf0e9WF-2-eza_g",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/BGNpU9Mcf0e9WF-2-eza_g",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/-a6fbUqbCU2qRwB7IRxCAw",
+  "Created": "2026-01-29T04:39:13.0179658Z",
+  "Updated": "2026-01-29T04:39:13.0179658Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

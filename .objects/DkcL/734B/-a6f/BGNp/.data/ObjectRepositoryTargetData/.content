@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GQ8Icgkqs06bZYUVSuq0SQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sise.cjf.gob.mx/Sise/Consultas/BuscarPartesOrganosII.aspx" CVScreenId="ec967f03-2aa7-42ff-a547-8bf2d830102c" CvElementArea="784, 477, 170, 27" CvType="InputBox" DesignTimeRectangle="785, 530, 168, 25" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='divPersonaFiltro' tableRow='7' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SELECT' /&gt;" Guid="59cc5fc4-f52c-4339-8f1e-1a5bc947b6d8" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='24cfde00-09ca-691f-3374-002f90d302e9' title='S I S E' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="673, 534, 108, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='divPersonaFiltro' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='Etiqueta' aaname='Tipo de Persona' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tipo de Persona' /&gt;" Guid="9ffb28df-f438-4b52-a1a8-4d0928708151" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="608e4fa201bedcfdf575b1e303a44faf.png" xmlns="">0Ci5lJaee6Euk9wHuD33SqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

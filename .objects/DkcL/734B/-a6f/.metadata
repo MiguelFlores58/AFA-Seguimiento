@@ -1,0 +1,13 @@
+﻿{
+  "Name": "SISE",
+  "Type": "Screen",
+  "Id": "-a6fbUqbCU2qRwB7IRxCAw",
+  "Reference": "Qhm-j1JzqkKVMIAX5OP9Lw/-a6fbUqbCU2qRwB7IRxCAw",
+  "ParentRef": "Qhm-j1JzqkKVMIAX5OP9Lw/734Bh3ILm0OKWesRW07Dsw",
+  "Created": "2026-01-29T04:39:12.6138845Z",
+  "Updated": "2026-01-29T04:39:12.6138845Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
