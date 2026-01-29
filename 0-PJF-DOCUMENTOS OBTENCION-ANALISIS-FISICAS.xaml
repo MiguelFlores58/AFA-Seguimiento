@@ -184,7 +184,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="PoderJudicialFederal" sap:VirtualizedContainerService.HintSize="1343,23903" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PoderJudicialFederal" sap:VirtualizedContainerService.HintSize="1343.0000000000002,23860" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtClientesSinaloa" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtClientesCoahuila" />
@@ -205,7 +205,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Principal Poder Judicial Federal" sap:VirtualizedContainerService.HintSize="1343,23880" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Principal Poder Judicial Federal" sap:VirtualizedContainerService.HintSize="1343,23837" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="strCarpetaDestino" />
         <Variable x:TypeArguments="x:String" Name="strTipoDocumento" />
@@ -234,7 +234,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="1309,3779" sap2010:WorkflowViewState.IdRef="Sequence_6">
+      <Sequence DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="1309,3994" sap2010:WorkflowViewState.IdRef="Sequence_6">
         <Sequence.Variables>
           <Variable x:TypeArguments="scg:List(s:Object[])" Name="ListaDatos" />
         </Sequence.Variables>
@@ -244,7 +244,7 @@
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Preparar data tables" sap:VirtualizedContainerService.HintSize="650,3687" sap2010:WorkflowViewState.IdRef="Sequence_67">
+        <Sequence DisplayName="Preparar data tables" sap:VirtualizedContainerService.HintSize="650,3902" sap2010:WorkflowViewState.IdRef="Sequence_67">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:Int32" Name="intIndexCoah" />
           </Sequence.Variables>
@@ -254,7 +254,7 @@
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <TryCatch DisplayName="Try Catch - Lee Excel" sap:VirtualizedContainerService.HintSize="616,1923" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+          <TryCatch DisplayName="Try Catch - Lee Excel" sap:VirtualizedContainerService.HintSize="616,1963" sap2010:WorkflowViewState.IdRef="TryCatch_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -262,25 +262,25 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <TryCatch.Try>
-              <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="614,1425" sap2010:WorkflowViewState.IdRef="Sequence_30">
+              <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="614,1465" sap2010:WorkflowViewState.IdRef="Sequence_30">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="580,1361" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+                <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="580,1401" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
                   <ueab:ExcelProcessScopeX.Body>
                     <ActivityAction x:TypeArguments="ui:IExcelProcess">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,1247" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,1287" sap2010:WorkflowViewState.IdRef="Sequence_7">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,1183" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[inArchivoDispatcher.ToString.Trim]">
+                        <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,1223" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[inArchivoDispatcher.ToString.Trim]">
                           <ueab:ExcelApplicationCard.Body>
                             <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                               <ActivityAction.Argument>
@@ -355,7 +355,7 @@
           <ui:MergeDataTable Destination="[dtConsolidado]" DisplayName="Merge Data Table" sap:VirtualizedContainerService.HintSize="616,167" sap2010:WorkflowViewState.IdRef="MergeDataTable_1" MissingSchemaAction="Add" Source="[dtClientesCoahuila]" />
           <ui:MergeDataTable Destination="[dtConsolidado]" DisplayName="Merge Data Table" sap:VirtualizedContainerService.HintSize="616,167" sap2010:WorkflowViewState.IdRef="MergeDataTable_2" MissingSchemaAction="Add" Source="[dtClientesDgo]" />
           <ui:MergeDataTable Destination="[dtConsolidado]" DisplayName="Merge Data Table" sap:VirtualizedContainerService.HintSize="616,167" sap2010:WorkflowViewState.IdRef="MergeDataTable_3" MissingSchemaAction="Add" Source="[dtClientesSinaloa]" />
-          <Assign sap:VirtualizedContainerService.HintSize="616,166" sap2010:WorkflowViewState.IdRef="Assign_46">
+          <Assign sap:VirtualizedContainerService.HintSize="616,175" sap2010:WorkflowViewState.IdRef="Assign_46">
             <Assign.To>
               <OutArgument x:TypeArguments="sd:DataTable">[dtSeparacion]</OutArgument>
             </Assign.To>
@@ -363,21 +363,29 @@
               <InArgument x:TypeArguments="sd:DataTable">[dtConsolidado.Clone]</InArgument>
             </Assign.Value>
           </Assign>
+          <Assign sap:VirtualizedContainerService.HintSize="616,166" sap2010:WorkflowViewState.IdRef="Assign_58">
+            <Assign.To>
+              <OutArgument x:TypeArguments="sd:DataTable">[dtConsolidado]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="sd:DataTable">[dtConsolidado.AsEnumerable().Where(Function(r) Not String.IsNullOrWhiteSpace(r("NOMBRE DEL CLIENTE").ToString)).CopyToDataTable()]</InArgument>
+            </Assign.Value>
+          </Assign>
         </Sequence>
       </Sequence>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Ingreso al poder Judicial" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1309,19519" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="2e612a95-061d-4abf-bdbb-838bba1d1e7b" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Ingreso al poder Judicial" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1309,19253" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="2e612a95-061d-4abf-bdbb-838bba1d1e7b" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1275,19265" sap2010:WorkflowViewState.IdRef="Sequence_126">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1275,18999" sap2010:WorkflowViewState.IdRef="Sequence_126">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Login Portal del PJF" sap:VirtualizedContainerService.HintSize="1241,842" sap2010:WorkflowViewState.IdRef="Sequence_60">
+              <Sequence DisplayName="Login Portal del PJF" sap:VirtualizedContainerService.HintSize="1241,846" sap2010:WorkflowViewState.IdRef="Sequence_60">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -440,14 +448,14 @@
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NClick>
               </Sequence>
-              <Sequence DisplayName="Personas fisicas" sap:VirtualizedContainerService.HintSize="1241,18363" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence DisplayName="Personas fisicas" sap:VirtualizedContainerService.HintSize="1241,18087" sap2010:WorkflowViewState.IdRef="Sequence_5">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Obtener acuerdos y analizar" sap:VirtualizedContainerService.HintSize="1207,18268" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                <Sequence DisplayName="Obtener acuerdos y analizar" sap:VirtualizedContainerService.HintSize="1207,17992" sap2010:WorkflowViewState.IdRef="Sequence_29">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:Boolean" Name="sonNombresIguales" />
                   </Sequence.Variables>
@@ -540,13 +548,13 @@
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NClick>
                   </Sequence>
-                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtConsolidado]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1173,17379" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtConsolidado]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1173,17103" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                     <ui:ForEachRow.Body>
                       <ActivityAction x:TypeArguments="sd:DataRow">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1171,17200" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1171,16924" sap2010:WorkflowViewState.IdRef="Sequence_10">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -581,7 +589,7 @@
                               <InArgument x:TypeArguments="x:String">[CurrentRow("Origen").ToString]</InArgument>
                             </Assign.Value>
                           </Assign>
-                          <Sequence DisplayName="Buscar en el portal del Poder Judicial y guardar el ultimo " sap:VirtualizedContainerService.HintSize="1137,7817" sap2010:WorkflowViewState.IdRef="Sequence_62">
+                          <Sequence DisplayName="Buscar en el portal del Poder Judicial y guardar el ultimo " sap:VirtualizedContainerService.HintSize="1137,7541" sap2010:WorkflowViewState.IdRef="Sequence_62">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="strNombreBusqueda" />
                               <Variable x:TypeArguments="s:String[]" Name="arrNombre" />
@@ -738,19 +746,19 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </Assign>
-                            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="758,6264" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[ListaIntentos]">
+                            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="758,5988" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[ListaIntentos]">
                               <ui:ForEach.Body>
                                 <ActivityAction x:TypeArguments="x:String">
                                   <ActivityAction.Argument>
                                     <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
                                   </ActivityAction.Argument>
-                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="756,6138" sap2010:WorkflowViewState.IdRef="Sequence_82">
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="756,5862" sap2010:WorkflowViewState.IdRef="Sequence_82">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <Sequence DisplayName="Busqueda del expediente" sap:VirtualizedContainerService.HintSize="722,6074" sap2010:WorkflowViewState.IdRef="Sequence_83">
+                                    <Sequence DisplayName="Busqueda del expediente" sap:VirtualizedContainerService.HintSize="722,5798" sap2010:WorkflowViewState.IdRef="Sequence_83">
                                       <Sequence.Variables>
                                         <Variable x:TypeArguments="x:String" Name="strNombreTabla" />
                                       </Sequence.Variables>
@@ -777,9 +785,9 @@
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                       </ui:TypeInto>
-                                      <uix:NCheckState DisplayName="Check App State 'VISTA GLOBAL EXPEDIENTE…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="688,5787" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                                      <uix:NCheckState DisplayName="Check App State 'VISTA GLOBAL EXPEDIENTE…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="688,5511" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="2e612a95-061d-4abf-bdbb-838bba1d1e7b" Version="V5">
                                         <uix:NCheckState.IfExists>
-                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="686,5433" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="686,5157" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1094,7 +1102,7 @@
                                                 </If.Else>
                                               </If>
                                             </Sequence>
-                                            <If Condition="[sonNombresIguales]" DisplayName="Si son nombres iguales guarda el primer expediente" sap:VirtualizedContainerService.HintSize="652,3300" sap2010:WorkflowViewState.IdRef="If_3">
+                                            <If Condition="[sonNombresIguales]" DisplayName="Si son nombres iguales guarda el primer expediente" sap:VirtualizedContainerService.HintSize="652,3024" sap2010:WorkflowViewState.IdRef="If_3">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1102,21 +1110,21 @@
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
                                               <If.Then>
-                                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="650,3141" sap2010:WorkflowViewState.IdRef="Sequence_91">
+                                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="650,2865" sap2010:WorkflowViewState.IdRef="Sequence_91">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
-                                                  <Sequence DisplayName="Guarda el primer expediente" sap:VirtualizedContainerService.HintSize="616,1923" sap2010:WorkflowViewState.IdRef="Sequence_90">
+                                                  <Sequence DisplayName="Guarda el primer expediente" sap:VirtualizedContainerService.HintSize="616,1647" sap2010:WorkflowViewState.IdRef="Sequence_90">
                                                     <sap:WorkflowViewStateService.ViewState>
                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
-                                                    <uix:NForEachUiElement DisplayName="For Each UI Element 'Expedientes" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='td' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="582,580" sap2010:WorkflowViewState.IdRef="NForEachUiElement_4" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                                                    <uix:NForEachUiElement DelayAfter="3" DelayBefore="3" DisplayName="For Each UI Element 'Expedientes" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='td' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="582,580" sap2010:WorkflowViewState.IdRef="NForEachUiElement_4" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="2e612a95-061d-4abf-bdbb-838bba1d1e7b" Version="V5">
                                                       <uix:NForEachUiElement.Body>
                                                         <ActivityAction x:TypeArguments="x:Int32">
                                                           <ActivityAction.Argument>
@@ -1163,13 +1171,13 @@
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
                                                     </uix:NForEachUiElement>
-                                                    <uix:NForEachUiElement DisplayName="For Each UI Element 'Documento'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='10' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="582,1243" sap2010:WorkflowViewState.IdRef="NForEachUiElement_2" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                                                    <uix:NForEachUiElement DelayAfter="3" DelayBefore="3" DisplayName="For Each UI Element 'Documento'" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='10' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="582,967" sap2010:WorkflowViewState.IdRef="NForEachUiElement_2" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="2e612a95-061d-4abf-bdbb-838bba1d1e7b" Version="V5">
                                                       <uix:NForEachUiElement.Body>
                                                         <ActivityAction x:TypeArguments="x:Int32">
                                                           <ActivityAction.Argument>
                                                             <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                                                           </ActivityAction.Argument>
-                                                          <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,945" sap2010:WorkflowViewState.IdRef="Sequence_98">
+                                                          <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,669" sap2010:WorkflowViewState.IdRef="Sequence_98">
                                                             <Sequence.Variables>
                                                               <Variable x:TypeArguments="si:FileInfo" Name="fileInfo_Descarga" />
                                                             </Sequence.Variables>
@@ -1179,27 +1187,16 @@
                                                                 <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                                               </scg:Dictionary>
                                                             </sap:WorkflowViewStateService.ViewState>
-                                                            <ui:GetLastDownloadedFile FileResource="{x:Null}" IgnoreFiles="{x:Null}" Timeout="{x:Null}" DisplayName="Wait for Download" DownloadFolder="[System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), &quot;Downloads&quot;)]" File="[fileInfo_Descarga]" sap:VirtualizedContainerService.HintSize="484,597" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_2">
+                                                            <ui:GetLastDownloadedFile FileResource="{x:Null}" IgnoreFiles="{x:Null}" Timeout="{x:Null}" DisplayName="Wait for Download" DownloadFolder="[System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), &quot;Downloads&quot;)]" File="[fileInfo_Descarga]" sap:VirtualizedContainerService.HintSize="484,518" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_2">
                                                               <ui:GetLastDownloadedFile.Body>
                                                                 <ActivityAction>
-                                                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,261" sap2010:WorkflowViewState.IdRef="Sequence_104">
+                                                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,222" sap2010:WorkflowViewState.IdRef="Sequence_104">
                                                                     <sap:WorkflowViewStateService.ViewState>
                                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                       </scg:Dictionary>
                                                                     </sap:WorkflowViewStateService.ViewState>
-                                                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,201" sap2010:WorkflowViewState.IdRef="NClick_11" InUiElement="[CurrentElement]" KeyModifiers="None" MouseButton="Left" Version="V5">
-                                                                      <uix:NClick.VerifyOptions>
-                                                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                                          <uix:VerifyExecutionOptions.Retry>
-                                                                            <InArgument x:TypeArguments="x:Boolean" />
-                                                                          </uix:VerifyExecutionOptions.Retry>
-                                                                          <uix:VerifyExecutionOptions.Timeout>
-                                                                            <InArgument x:TypeArguments="x:Double" />
-                                                                          </uix:VerifyExecutionOptions.Timeout>
-                                                                        </uix:VerifyExecutionOptions>
-                                                                      </uix:NClick.VerifyOptions>
-                                                                    </uix:NClick>
+                                                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,162" sap2010:WorkflowViewState.IdRef="NClick_11" InUiElement="[CurrentElement]" KeyModifiers="None" MouseButton="Left" Version="V5" />
                                                                   </Sequence>
                                                                 </ActivityAction>
                                                               </ui:GetLastDownloadedFile.Body>
@@ -1210,7 +1207,6 @@
                                                                 </scg:Dictionary>
                                                               </sap:WorkflowViewStateService.ViewState>
                                                             </ui:GetLastDownloadedFile>
-                                                            <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[inRutaArchivos &amp; &quot;Acuerdos&quot;]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="484,197" sap2010:WorkflowViewState.IdRef="MoveFile_2" Path="[fileInfo_Descarga.FullName]" />
                                                             <ui:Break sap:VirtualizedContainerService.HintSize="484,54" sap2010:WorkflowViewState.IdRef="Break_2" />
                                                           </Sequence>
                                                         </ActivityAction>
@@ -1243,7 +1239,7 @@
                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
-                                                    <uix:NCheckState DisplayName="Check App State 'Ver Notificaciones'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,642" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                                                    <uix:NCheckState DisplayName="Check App State 'Ver Notificaciones'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,642" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="2e612a95-061d-4abf-bdbb-838bba1d1e7b" Version="V5">
                                                       <uix:NCheckState.IfExists>
                                                         <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,288" sap2010:WorkflowViewState.IdRef="Sequence_113">
                                                           <sap:WorkflowViewStateService.ViewState>
@@ -1251,7 +1247,7 @@
                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
-                                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ver Notificaciones(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,224" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ver Notificaciones(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,224" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2e612a95-061d-4abf-bdbb-838bba1d1e7b" Version="V5">
                                                             <uix:NClick.Target>
                                                               <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="8e13c1e3-6738-469b-8f49-01ec196099e8" ContentHash="ZhYvTPnEhE2spVzpkwVWHA" CvElementArea="447, 456, 1072, 35" CvType="InputBox" DesignTimeRectangle="804, 466, 121, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='expedienteE' tag='A' /&gt;" Guid="a1d8a6ed-f197-44f2-8235-40cf4220b290" InformativeScreenshot="9ddcd96cd69bba14bad20a08b9f14716.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/ZLfXRWBS4UiDMwtbN7m3yg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                                                                 <uix:TargetAnchorable.Anchors>
@@ -1294,7 +1290,7 @@
                                                       </uix:NCheckState.Target>
                                                     </uix:NCheckState>
                                                   </Sequence>
-                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Regresar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="616,233" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1877bfbc-3182-4ff2-9a7b-5681e23f3016" Version="V5">
+                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Regresar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="616,233" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2e612a95-061d-4abf-bdbb-838bba1d1e7b" Version="V5">
                                                     <uix:NClick.Target>
                                                       <uix:TargetAnchorable BrowserURL="serviciosenlinea.pjf.gob.mx/juicioenlinea/Home/OpcionesFirel" CVScreenId="fb834050-e5fc-4062-a30f-72cd1eaf5602" ContentHash="yb7it6OnBka7IrM8L2v5ew" CvElementArea="391, 346, 88, 31" CvTextArea="420, 355, 48, 14" CvTextArgument="Regresar" CvType="Button" DesignTimeRectangle="392, 348, 86, 29" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnRegreso' tag='BUTTON' /&gt;" Guid="324f343f-5e05-4d1b-9337-77bcce09f11e" InformativeScreenshot="69511f8fa0955391f5864385be126e27.png" Reference="Qhm-j1JzqkKVMIAX5OP9Lw/47juW51A_EqYHzeuG52tRA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Opciones de Ingreso con Firel - Portal de Servicios en Línea del Poder Judicial de la Federación' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                                                     </uix:NClick.Target>
@@ -2188,15 +2184,15 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:MergeDataTable>
-      <If Condition="[dtConsolidado IsNot Nothing AndAlso dtConsolidado.Rows.Count &gt; 0]" DisplayName="Si tiene datos dtConsolidado lo guarda" sap:VirtualizedContainerService.HintSize="1309,332" sap2010:WorkflowViewState.IdRef="If_10">
+      <If Condition="[dtConsolidado IsNot Nothing AndAlso dtConsolidado.Rows.Count &gt; 0]" DisplayName="Si tiene datos dtConsolidado lo guarda" sap:VirtualizedContainerService.HintSize="1309,340" sap2010:WorkflowViewState.IdRef="If_10">
         <If.Then>
-          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,112" sap2010:WorkflowViewState.IdRef="Sequence_127">
+          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,116" sap2010:WorkflowViewState.IdRef="Sequence_127">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch - Escribe Excel" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+            <TryCatch DisplayName="Try Catch - Escribe Excel" sap:VirtualizedContainerService.HintSize="660,1873" sap2010:WorkflowViewState.IdRef="TryCatch_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2204,45 +2200,46 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <TryCatch.Try>
-                <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="622,1214" sap2010:WorkflowViewState.IdRef="Sequence_122">
+                <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="658,1608" sap2010:WorkflowViewState.IdRef="Sequence_122">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="588,1150" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
+                  <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="624,1544" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
                     <ueab:ExcelProcessScopeX.Body>
                       <ActivityAction x:TypeArguments="ui:IExcelProcess">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554,1036" sap2010:WorkflowViewState.IdRef="Sequence_121">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="590,1430" sap2010:WorkflowViewState.IdRef="Sequence_121">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="520,972" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[inArchivoDispatcher.ToString.Trim]">
+                          <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="556,1366" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[inArchivoDispatcher.ToString.Trim]">
                             <ueab:ExcelApplicationCard.Body>
                               <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                 <ActivityAction.Argument>
                                   <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
                                 </ActivityAction.Argument>
-                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,672" sap2010:WorkflowViewState.IdRef="Sequence_119">
+                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,1066" sap2010:WorkflowViewState.IdRef="Sequence_119">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="452,493" sap2010:WorkflowViewState.IdRef="ForEach`1_5" Values="[{&quot;GENERAL&quot;,&quot;COAHUILA&quot;, &quot;DURANGO&quot;, &quot;SINALOA&quot;}]">
+                                  <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="488,887" sap2010:WorkflowViewState.IdRef="ForEach`1_5" Values="[{&quot;GENERAL&quot;,&quot;COAHUILA&quot;, &quot;DURANGO&quot;, &quot;SINALOA&quot;}]">
                                     <ui:ForEach.Body>
                                       <ActivityAction x:TypeArguments="x:String">
                                         <ActivityAction.Argument>
                                           <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
                                         </ActivityAction.Argument>
-                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,358" sap2010:WorkflowViewState.IdRef="Sequence_120">
+                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,752" sap2010:WorkflowViewState.IdRef="Sequence_120">
                                           <Sequence.Variables>
+                                            <Variable x:TypeArguments="sd:DataRow[]" Name="arrFilasEscribir" />
                                             <Variable x:TypeArguments="sd:DataTable" Name="dtParaEscribir" />
                                           </Sequence.Variables>
                                           <sap:WorkflowViewStateService.ViewState>
@@ -2250,20 +2247,49 @@
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_55">
+                                          <Assign sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_59">
                                             <Assign.To>
-                                              <OutArgument x:TypeArguments="sd:DataTable">[dtParaEscribir]</OutArgument>
+                                              <OutArgument x:TypeArguments="sd:DataRow[]">[arrFilasEscribir]</OutArgument>
                                             </Assign.To>
                                             <Assign.Value>
-                                              <InArgument x:TypeArguments="sd:DataTable">[dtConsolidado.AsEnumerable().Where(Function(r) r("Origen").ToString().Trim().ToUpper().Equals("")).CopyToDataTable()]</InArgument>
+                                              <InArgument x:TypeArguments="sd:DataRow[]">[dtConsolidado.AsEnumerable().Where(Function(r) r("Origen").ToString().Trim().ToUpper().Equals(currentText.ToString().ToUpper())).ToArray()]</InArgument>
                                             </Assign.Value>
                                           </Assign>
-                                          <ui:ExcelWriteRange AddHeaders="False" DataTable="[dtParaEscribir]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="416,115" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_2" SheetName="[currentText]" StartingCell="A1" />
+                                          <If Condition="[arrFilasEscribir.count &gt; 0]" DisplayName="Valida si tiene informacion la Hoja" sap:VirtualizedContainerService.HintSize="452,509" sap2010:WorkflowViewState.IdRef="If_11">
+                                            <If.Then>
+                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,354" sap2010:WorkflowViewState.IdRef="Sequence_129">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_60">
+                                                  <Assign.To>
+                                                    <OutArgument x:TypeArguments="sd:DataTable">[dtParaEscribir]</OutArgument>
+                                                  </Assign.To>
+                                                  <Assign.Value>
+                                                    <InArgument x:TypeArguments="sd:DataTable">[arrFilasEscribir.CopyToDataTable()]</InArgument>
+                                                  </Assign.Value>
+                                                </Assign>
+                                                <ui:ExcelWriteRange AddHeaders="False" DataTable="[dtParaEscribir]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="416,115" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_2" SheetName="[currentText]" StartingCell="A1" />
+                                              </Sequence>
+                                            </If.Then>
+                                            <If.Else>
+                                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_130">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </Sequence>
+                                            </If.Else>
+                                          </If>
                                         </Sequence>
                                       </ActivityAction>
                                     </ui:ForEach.Body>
                                   </ui:ForEach>
-                                  <ui:ExcelWriteRange AddHeaders="False" DataTable="[dtDistrito]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="452,115" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_3" SheetName="DISTRITO" StartingCell="A1" />
+                                  <ui:ExcelWriteRange AddHeaders="False" DataTable="[dtDistrito]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="488,115" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_3" SheetName="DISTRITO" StartingCell="A1" />
                                 </Sequence>
                               </ActivityAction>
                             </ueab:ExcelApplicationCard.Body>
@@ -2318,7 +2344,7 @@
           </Sequence>
         </If.Then>
         <If.Else>
-          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_128">
+          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_128">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>

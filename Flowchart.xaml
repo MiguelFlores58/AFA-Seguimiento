@@ -81,7 +81,7 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Flowchart" sap:VirtualizedContainerService.HintSize="1247,674" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Flowchart" sap:VirtualizedContainerService.HintSize="1248,674" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:String" Name="strArchivoDispatcher" />
       <Variable x:TypeArguments="x:String" Name="strRutaArchivos" />
@@ -95,13 +95,14 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID5</x:Reference>
+      <x:Reference>__ReferenceID6</x:Reference>
     </Flowchart.StartNode>
-    <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_2">
+    <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">265,235</av:Point>
+          <av:Point x:Key="ShapeLocation">265,435</av:Point>
           <av:Size x:Key="ShapeSize">110,70</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">265,470 215,470</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="0-PJF-DocUndstd" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="0-PJF-DOCUMENTOS OBTENCION-ANALISIS-FISICAS.xaml">
@@ -115,13 +116,29 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
+      <FlowStep.Next>
+        <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <av:Point x:Key="ShapeLocation">105,435</av:Point>
+              <av:Size x:Key="ShapeSize">110,70</av:Size>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="0-PJF-PERSONAS MORALES - Invoke Workflow File (0-PJF-PERSONAS MORALES.xaml)" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="0-PJF-PERSONAS MORALES.xaml">
+            <ui:InvokeWorkflowFile.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="inRutaArchivos">[strRutaArchivos]</InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[strArchivoDispatcher]</InArgument>
+            </ui:InvokeWorkflowFile.Arguments>
+          </ui:InvokeWorkflowFile>
+        </FlowStep>
+      </FlowStep.Next>
     </FlowStep>
-    <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_3">
+    <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">835,235</av:Point>
+          <av:Point x:Key="ShapeLocation">835,435</av:Point>
           <av:Size x:Key="ShapeSize">110,70</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">890,305 890,365</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">945,470 995,470</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="1-SISE-Distrito" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="2-SISE-COLEGIADO.xaml">
@@ -135,11 +152,12 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
       <FlowStep.Next>
-        <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+        <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <av:Point x:Key="ShapeLocation">835,365</av:Point>
+              <av:Point x:Key="ShapeLocation">995,435</av:Point>
               <av:Size x:Key="ShapeSize">110,70</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">1050,505 1050,505</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="2-SISE-Colegiado" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="2-SISE-COLEGIADO.xaml">
@@ -147,15 +165,18 @@
               <scg:Dictionary x:TypeArguments="x:String, Argument" />
             </ui:InvokeWorkflowFile.Arguments>
           </ui:InvokeWorkflowFile>
+          <FlowStep.Next>
+            <x:Reference>__ReferenceID0</x:Reference>
+          </FlowStep.Next>
         </FlowStep>
       </FlowStep.Next>
     </FlowStep>
-    <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+    <FlowStep x:Name="__ReferenceID6" sap2010:WorkflowViewState.IdRef="FlowStep_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">565,115</av:Point>
           <av:Size x:Key="ShapeSize">110,70</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">620,185 620,220</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">565,150 535,150 535,95 330,95 330,125</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Inicializador - Invoke Workflow File (Inicializador.xaml)" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Inicializador.xaml">
@@ -165,43 +186,100 @@
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
       <FlowStep.Next>
-        <FlowSwitch x:TypeArguments="x:String" x:Name="__ReferenceID2" DisplayName="Flow Switch" Expression="[Now.DayOfWeek.ToString]" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_2">
+        <FlowStep x:Name="__ReferenceID4">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <av:Point x:Key="ShapeLocation">590,220</av:Point>
-              <av:Size x:Key="ShapeSize">60,60</av:Size>
-              <av:PointCollection x:Key="MondayConnector">590,250 560,250 560,204.99999999999997 320,204.99999999999997 320,235</av:PointCollection>
-              <av:PointCollection x:Key="TuesdayConnector">650,250 680,250 680,204.99999999999997 890,204.99999999999997 890,235</av:PointCollection>
-              <av:PointCollection x:Key="WednesdayConnector">590,250 560,250 560,135 200,135 200,165</av:PointCollection>
-              <av:PointCollection x:Key="FridayConnector">590,250 560,250 560,335 320,335 320,305</av:PointCollection>
-              <av:PointCollection x:Key="SaturdayConnector">650,250 680,250 680,335 890,335 890,305</av:PointCollection>
-              <av:PointCollection x:Key="ThursdayConnector">650,250 680,250 680,270 835,270</av:PointCollection>
+              <av:Point x:Key="ShapeLocation">275,125</av:Point>
+              <av:Size x:Key="ShapeSize">110,70</av:Size>
+              <av:PointCollection x:Key="ConnectorLocation">429,309.8283333333334 379,309.8283333333334</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <x:Reference>__ReferenceID0<x:Key>Friday</x:Key></x:Reference>
-          <x:Reference>__ReferenceID1<x:Key>Tuesday</x:Key></x:Reference>
-          <x:Reference>__ReferenceID1<x:Key>Thursday</x:Key></x:Reference>
-          <x:Reference>__ReferenceID1<x:Key>Saturday</x:Key></x:Reference>
-          <x:Reference>__ReferenceID0<x:Key>Monday</x:Key></x:Reference>
-          <FlowStep x:Key="Wednesday" x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="0-PJF-DocUndstd" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="0-PJF-DOCUMENTOS OBTENCION-ANALISIS-FISICAS.xaml">
+            <ui:InvokeWorkflowFile.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="inRutaArchivos">[strRutaArchivos]</InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[strArchivoDispatcher]</InArgument>
+            </ui:InvokeWorkflowFile.Arguments>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <av:Point x:Key="ShapeLocation">145,165</av:Point>
-                <av:Size x:Key="ShapeSize">110,70</av:Size>
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="0-PJF-PERSONAS MORALES - Invoke Workflow File (0-PJF-PERSONAS MORALES.xaml)" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="0-PJF-PERSONAS MORALES.xaml">
-              <ui:InvokeWorkflowFile.Arguments>
-                <InArgument x:TypeArguments="x:String" x:Key="inRutaArchivos">[strRutaArchivos]</InArgument>
-                <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[strArchivoDispatcher]</InArgument>
-              </ui:InvokeWorkflowFile.Arguments>
-            </ui:InvokeWorkflowFile>
-          </FlowStep>
-        </FlowSwitch>
+          </ui:InvokeWorkflowFile>
+        </FlowStep>
       </FlowStep.Next>
     </FlowStep>
-    <x:Reference>__ReferenceID2</x:Reference>
+    <FlowSwitch x:TypeArguments="x:String" DisplayName="Flow Switch" Expression="[Now.DayOfWeek.ToString]" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">590,420</av:Point>
+          <av:Size x:Key="ShapeSize">60,60</av:Size>
+          <av:PointCollection x:Key="MondayConnector">590,450 560,450 560,470 375,470</av:PointCollection>
+          <av:PointCollection x:Key="TuesdayConnector">650,450 680,450 680,405 890,405 890,435</av:PointCollection>
+          <av:PointCollection x:Key="WednesdayConnector">590,450 560,450 560,405 320,405 320,435</av:PointCollection>
+          <av:PointCollection x:Key="FridayConnector">590,450 560,450 560,535 320,535 320,505</av:PointCollection>
+          <av:PointCollection x:Key="SaturdayConnector">650,450 680,450 680,535 890,535 890,505</av:PointCollection>
+          <av:PointCollection x:Key="ThursdayConnector">650,450 680,450 680,470 835,470</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <x:Reference>__ReferenceID1<x:Key>Friday</x:Key></x:Reference>
+      <x:Reference>__ReferenceID2<x:Key>Tuesday</x:Key></x:Reference>
+      <x:Reference>__ReferenceID2<x:Key>Thursday</x:Key></x:Reference>
+      <x:Reference>__ReferenceID2<x:Key>Saturday</x:Key></x:Reference>
+      <x:Reference>__ReferenceID1<x:Key>Monday</x:Key></x:Reference>
+      <x:Reference>__ReferenceID1<x:Key>Wednesday</x:Key></x:Reference>
+    </FlowSwitch>
+    <x:Reference>__ReferenceID0</x:Reference>
     <x:Reference>__ReferenceID3</x:Reference>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">95,125</av:Point>
+          <av:Size x:Key="ShapeSize">110,70</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="0-PJF-PERSONAS MORALES - Invoke Workflow File (0-PJF-PERSONAS MORALES.xaml)" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="0-PJF-PERSONAS MORALES.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="inRutaArchivos">[strRutaArchivos]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="inArchivoDispatcher">[strArchivoDispatcher]</InArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+    </FlowStep>
     <x:Reference>__ReferenceID4</x:Reference>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">785,115</av:Point>
+          <av:Size x:Key="ShapeSize">110,70</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">1033,347.8283333333334 1083,347.8283333333334</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="1-SISE-Distrito" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="2-SISE-COLEGIADO.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <scg:Dictionary x:TypeArguments="x:String, Argument" />
+        </ui:InvokeWorkflowFile.Arguments>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:InvokeWorkflowFile>
+    </FlowStep>
+    <FlowStep x:Name="__ReferenceID5">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">785,215</av:Point>
+          <av:Size x:Key="ShapeSize">110,70</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">840,285 840,285</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="2-SISE-Colegiado" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="2-SISE-COLEGIADO.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <scg:Dictionary x:TypeArguments="x:String, Argument" />
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+      <FlowStep.Next>
+        <x:Reference>__ReferenceID5</x:Reference>
+      </FlowStep.Next>
+    </FlowStep>
   </Flowchart>
 </Activity>
